@@ -1,4 +1,4 @@
-#AFRIK-INNOVSCIENCE SITE WEB PRINCIPAL
+# AFRIK-INNOVSCIENCE SITE WEB PRINCIPAL
 
 Ce repository contient tous les fichiers necessaires au fonctionnenement du site web principal.
 Pour pouvoir travailler avec ce repository, bien vouloir respecter les etapes suivantes:
