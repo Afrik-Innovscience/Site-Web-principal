@@ -7,7 +7,7 @@ Pour pouvoir travailler avec ce repository, bien vouloir respecter les étapes s
 3. Les branches dédiées aux features auront pour préfixe **feature/**  et celles dédiées à la résolution des bugs auront pour prefixe  **bug/** .
 4. Les Noms des branches doivent être toutes en minuscule et les espaces doivent être remplacés par des tirets de 6. Exemples: <br/><br/>
    Nom du feature: Creation du menu principal <br/> 
-   Nom de la branche: _**feature/**creation-du-menu-principal**_  <br/>
+   Nom de la branche: _**feature/**creation-du-menu-principal**_  <br/><br/>
    Nom du bug: Changer la couleur des liens en vert <br/>
    Nom de la branche: _**bug/**changer-la-couleur-des-liens-en-vert**_  <br/> <br/><br/><br/>
 
