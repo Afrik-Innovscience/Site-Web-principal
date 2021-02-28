@@ -1,0 +1,33 @@
+#better-recent-comments {
+	font-size: 14px;
+
+	.avatar {
+		border-radius: 50%;
+	}
+
+	.comment-author-link,
+	.comment-post {
+		font-weight: 700;
+	}
+
+	.comment-excerpt,
+	.comment-date {
+		display: block;
+	}
+
+	.comment-excerpt,
+	.comment-date {
+		margin-top: 5px;
+		font-size: 12px;
+	}
+
+	.comment-date {
+		margin-bottom: 0;
+
+		a {
+			&:not(:hover) {
+				color: inherit;
+			}
+		}
+	}
+}

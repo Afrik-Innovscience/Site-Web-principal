@@ -1,0 +1,154 @@
+/*!
+Theme Name: Techguide
+Theme URI:
+Author: Zemez
+Author URI: https://www.templatemonster.com/authors/zemez/
+Description: Techguide - WordPress theme for real life projects. Built with love and care by Zemez.
+Version: 1.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: techguide
+Tags: grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-header, custom-background, custom-colors, custom-logo, custom-menu, featured-images, flexible-header, footer-widgets, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, news
+DocumentationID: techguide
+Template Id: PROD-18249
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Techguide is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Animation
+# Grid
+# Typography
+# Elements
+	## Lists
+	## Tables
+	## Preloader
+	## ToTop button
+# Forms
+	## Buttons
+	## Fields
+	## Search-form
+	## Comment-form
+	## Password-form
+# Navigation
+	## Links
+	## Main Menu
+	## Paginations
+	## Breadcrumbs
+	## Toggle buttons
+# Modules
+	## Accessibility
+	## Alignments
+	## Clearings
+	## Comments
+	## Swiper
+	## Author Bio
+	## Magnific Popup
+	## Reading Progress Bar
+# Components
+	## Card
+# Content
+	## Layout
+	## Header
+	## Posts and pages
+	## Post Formats
+	## Footer
+# Widgets
+	## Defaults
+	## About author
+	## Better Recent Comments
+	## Stock Ticker
+# Media
+	## Captions
+	## Galleries
+	## Embeds
+# Plugins
+	## Cherry Trending Posts
+	## Cherry Popups
+	## Cherry Socialize
+	## Contact Form 7
+	## Elementor
+	## Highlight and share
+	## WP Social Login
+
+--------------------------------------------------------------*/
+
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize"; // +
+
+/*--------------------------------------------------------------
+# Animation
+--------------------------------------------------------------*/
+@import "animation"; // +
+
+/*--------------------------------------------------------------
+# Grid
+--------------------------------------------------------------*/
+@import "grid/grid"; // +
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography"; // +
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements"; // +
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "forms/forms"; // +
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation"; // +
+
+/*--------------------------------------------------------------
+# Modules
+--------------------------------------------------------------*/
+@import "modules/modules"; // +
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "card/card"; // +
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site/site"; // +
+@import "pages/pages"; // +
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets"; // +
+@import "widgets/widgets"; // +
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media"; // +
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+@import "plugins/plugins"; // +

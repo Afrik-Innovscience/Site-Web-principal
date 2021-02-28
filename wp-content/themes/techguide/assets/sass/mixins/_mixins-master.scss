@@ -1,0 +1,185 @@
+@import "transform";
+@import "border-radius";
+@import "flex";
+
+// Function unicode
+@function unicode($str){
+
+	@if none == $str {
+		@return $str
+	} @else {
+		@return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"")
+	}
+}
+
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Reset list
+@mixin reset-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+	li {
+		> ul,
+		> ol,
+		& + li {
+			margin-top: 0;
+		}
+	}
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Reset
+@mixin reset-container {
+	max-width: inherit;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+// Box shadow
+@mixin box-shadow {
+	box-shadow: $box__shadow_mobile;
+
+	@include media-breakpoint-up(md) {
+		box-shadow: $box__shadow;
+	}
+}
+
+// Clearfix
+@mixin clearfix {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after {
+	clear: both;
+}
+
+@mixin clearfix-full {
+	&:before {
+		@include clearfix;
+	}
+	&:after {
+		@include clearfix;
+		@include clearfix-after
+	}
+}
+
+// card
+@mixin card {
+	padding: 30px;
+	background-color: $color__white;
+	@include border-radius();
+}
+
+// Term link style
+@mixin term-link-style {
+	display: inline-block;
+	//padding: 3px 8px;
+	font-size: 13px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	@include border-radius();
+}
+
+// Optional hyphenation
+@mixin hyphens($mode: auto) {
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	word-break: break-all;
+	hyphens: $mode;
+}
+
+// Placeholder style
+@mixin placeholder {
+	&::-webkit-input-placeholder {
+		@content;
+	}
+	&::-moz-placeholder{
+		@content;
+	}
+	&:-ms-input-placeholder{
+		@content;
+	}
+	&:-moz-placeholder{
+		@content;
+	}
+}
+
+// Resize anything
+@mixin resizable($direction) {
+	resize: $direction; // Options: horizontal, vertical, both
+	overflow: auto; // Per CSS3 UI, `resize` only applies when `overflow` isn't `visible`
+}
+
+// Triangle
+@mixin triangle($dir, $w, $h, $clr:#ccc) {
+	width: 0;
+	height: 0;
+	border-style: solid;
+
+	@if $dir == top {
+		border-width: 0 $w/2 $h $w/2;
+		border-color: transparent transparent $clr transparent;
+	} @else if $dir == bottom {
+		border-width: $h $w/2 0 $w/2;
+		border-color: $clr transparent transparent transparent;
+	} @else if $dir == left {
+		border-width: $h/2 $w $h/2 0;
+		border-color: transparent $clr transparent transparent;
+	} @else if $dir == right {
+		border-width: $h/2 0 $h/2 $w;
+		border-color: transparent transparent transparent $clr;
+	} @else if $dir == top_left {
+		border-width: $h $w 0 0;
+		border-color: $clr transparent transparent transparent;
+	} @else if $dir == top_right {
+		border-width: 0 $w $h 0;
+		border-color: transparent $clr transparent transparent;
+	} @else if $dir == bottom_right {
+		border-width: 0 0 $h $w;
+		border-color: transparent transparent $clr transparent;
+	} @else if $dir == bottom_left {
+		border-width: $h 0 0 $w;
+		border-color: transparent transparent transparent $clr;
+	}
+}
+
+// Opacity
+@mixin opacity($opacity) {
+	opacity: $opacity;
+	// IE8 filter
+	$opacity-ie: ($opacity * 100);
+	filter: #{alpha(opacity=$opacity-ie)};
+}
+
+// Custom grid indent
+@mixin grid-indent( $indent: $grid-gutter-width/2, $child-indent-type: padding, $child-selector: '> *' ) {
+	margin-left: - $indent;
+	margin-right: - $indent;
+
+	@if $child-indent-type==padding or $child-indent-type==margin {
+		#{$child-selector} {
+			#{$child-indent-type}-left: $indent;
+			#{$child-indent-type}-right: $indent;
+		}
+	} @else {
+		#{$child-selector} {
+			padding-left: $indent;
+			padding-right: $indent;
+		}
+	}
+}

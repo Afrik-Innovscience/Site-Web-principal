@@ -1,0 +1,184 @@
+$share-map: (
+	'digg.com':        $digg,
+	'dribbble.com':    $dribbble,
+	'facebook.com':    $facebook,
+	'foursquare.com':  $foursquare,
+	'flickr.com':      $flickr,
+	'plus.google.com': $google-plus,
+	'github.com':      $github,
+	'instagram.com':   $instagram,
+	'linkedin.com':    $linkedin,
+	'pinterest.com':   $pinterest,
+	'reddit.com':      $reddit,
+	'stumbleupon.com': $stumbleupon,
+	'tumblr.com':      $tumblr,
+	'twitter.com':     $twitter,
+	'tripadvisor':     $tripadvisor,
+	'soundcloud.com':  $soundcloud,
+	'slideshare.net':  $slideshare,
+	'jsfiddle.net':    $jsfiddle,
+	'codepen.io':      $codepen,
+	'vk.com':          $vk,
+	'ok.ru':           $odnoklassniki
+);
+
+.cs-share {
+	&__icon {
+		display: inline-block;
+		margin: 5px 10px 5px 0;
+		font-size: 18px;
+		line-height: 1;
+		vertical-align: middle;
+	}
+
+	&__title {
+		display: inline-block;
+		margin: 5px 15px 5px 0;
+		vertical-align: middle;
+
+		@include media-breakpoint-up(md) {
+			margin: 5px 35px 5px 0;
+		}
+	}
+
+	&__list {
+		display: inline-block;
+		vertical-align: middle;
+		line-height: 1;
+	}
+
+	&__item {
+		margin-top: 0;
+		margin-right: 13px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	&__link {
+		&:before {
+			//font-size: 14px;
+			//line-height: 1.5;
+			//width: 1em;
+			//height: auto;
+			//border: none;
+			//color: inherit;
+		}
+
+		@each $url, $color in $share-map {
+			&[href*="#{$url}"]:hover:before {
+				color: $color;
+			}
+		}
+	}
+
+	&--rounded {
+		.cs-share__icon {
+			font-size: 22px;
+		}
+
+		.cs-share__list {
+			margin-top: -3px;
+			margin-bottom: -3px;
+		}
+
+		.cs-share__item {
+			margin-right: 6px;
+			margin-top: 3px;
+			margin-bottom: 3px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
+		.cs-share__link {
+
+			&:before {
+				width: 44px;
+				height: 44px;
+				font-size: 18px;
+				line-height: 42px;
+				border: 1px solid;
+				@include border-radius();
+			}
+
+			@each $url, $color in $share-map {
+				&[href*="#{$url}"]:before {
+					color: $color;
+				}
+			}
+
+			@each $url, $color in $share-map {
+				&[href*="#{$url}"]:hover:before {
+					background-color: $color;
+					border-color: $color;
+				}
+			}
+		}
+	}
+
+	&--animate {
+		position: relative;
+		display: inline-block;
+
+		&:hover {
+			.cs-share__list {
+				left: 100%;
+				visibility: visible;
+				opacity: 1;
+			}
+		}
+
+		.cs-share__icon {
+			padding: 10px 7px 10px 0;
+			margin: 0;
+			cursor: pointer;
+			transition: .1s;
+		}
+
+		.cs-share__title {
+			display: none;
+		}
+
+		.cs-share__list {
+			position: absolute;
+			top: 50%;
+			left: calc(100% + 10px);
+			transform: translateY(-50%) translateZ(0);
+			z-index: 2;
+			padding: 7px 11px;
+			white-space: nowrap;
+			background-color: $color__white;
+			box-shadow: 0 7px 12px 0 rgba(75, 77, 88, 0.15);
+			opacity: 0;
+			visibility: hidden;
+			transition: .2s;
+		}
+	}
+}
+
+
+/*Share*/
+.cs-share {
+	&__item {
+		margin-right: 5px;
+	}
+	&__link {
+		text-align: center;
+		&:before {
+			line-height: 28px;
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			border-width: 1px;
+			border-style: solid;
+			border-color: currentColor;
+			border-radius: 50%;
+			&:hover {
+				border-color: currentColor;
+			}
+		}
+	}
+}

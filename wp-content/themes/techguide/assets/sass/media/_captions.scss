@@ -1,0 +1,23 @@
+.wp-caption {
+	margin-bottom: 25px;
+	max-width: 100%;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&.alignnone {
+		img[class*="wp-image-"] {
+			margin-top: 10px;
+		}
+	}
+
+	.wp-caption-text {
+		margin: 0.9em 0;
+	}
+}
+
+.wp-caption-text {
+	font-size: 12px;
+	font-style: italic;
+}

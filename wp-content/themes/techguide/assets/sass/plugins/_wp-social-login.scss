@@ -1,0 +1,272 @@
+.comment-form {
+	.wp-social-login-widget {
+
+		&,
+		& + .comment-notes {
+			text-align: center;
+		}
+
+		& + .comment-notes {
+			margin-top: 5px;
+		}
+	}
+
+	.wp-social-login-connect-with {
+		margin-bottom: 5px;
+		font-size: 20px;
+		font-weight: normal;
+	}
+
+	.wp-social-login-provider-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 0;
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+
+	.wp-social-login-provider {
+		position: relative;
+		display: inline-block;
+		padding: 8px 15px;
+		margin: 0 10px 10px;
+		font-size: 14px;
+		line-height: 1.5;
+		letter-spacing: 0;
+		@include border-radius();
+		color: $color__white;
+		background-color: $color__dark;
+
+		&:hover {
+			opacity: 0.9;
+		}
+
+		img {
+			width: 24px;
+			height: 24px;
+		}
+
+		&:before {
+			@extend %font-awesome-icon;
+			position: relative;
+			z-index: 2;
+			width: 36px;
+			margin-left: -15px;
+			margin-right: 10px;
+			font-size: 16px;
+			line-height: 21px;
+			vertical-align: middle;
+		}
+		&:after {
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 1;
+			width: 36px;
+			height: 100%;
+			background-color: rgba($color__dark, 0.1);
+			@include border-left-radius();
+		}
+
+		&-facebook{
+			background-color: $facebook;
+
+			&:before {
+				content: '\f09a';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-twitter {
+			background-color: $twitter;
+
+			&:before {
+				content: '\f099';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-google {
+			background-color: $google-plus;
+
+			&:before {
+				content: '\f1a0';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-wordpress {
+			background-color: $wordpress;
+
+			&:before {
+				content: '\f19a';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-yahoo {
+			background-color: $yahoo;
+
+			&:before {
+				content: '\f19e';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-linkedin {
+			background-color: $linkedin;
+
+			&:before {
+				content: '\f0e1';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-instagram {
+			background-color: $instagram;
+
+			&:before {
+				content: '\f16d';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-reddit {
+			background-color: $reddit;
+
+			&:before {
+				content: '\f16d';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-foursquare {
+			background-color: $foursquare;
+
+			&:before {
+				content: '\f180';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-lastfm {
+			background-color: $lastfm;
+
+			&:before {
+				content: '\f202';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-tumblr {
+			background-color: $tumblr;
+
+			&:before {
+				content: '\f173';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-stackoverflow {
+			background-color: $stack-overflow;
+
+			&:before {
+				content: '\f16c';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-github {
+			background-color: $github;
+
+			&:before {
+				content: '\f09b';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-dribbble {
+			background-color: $dribbble;
+
+			&:before {
+				content: '\f17d';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-500px {
+			background-color: $px500;
+
+			&:before {
+				content: '\f26e';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-steam {
+			background-color: $steam;
+
+			&:before {
+				content: '\f1b6';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-twitchtv {
+			background-color: $twitch;
+
+			&:before {
+				content: '\f1e8';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-vkontakte {
+			background-color: $vk;
+
+			&:before {
+				content: '\f189';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-odnoklassniki {
+			background-color: $odnoklassniki;
+
+			&:before {
+				content: '\f263';
+			}
+
+			&:after { content: '' }
+		}
+
+		&-live {
+			background-color: $windows;
+
+			&:before {
+				content: '\f17a';
+			}
+
+			&:after { content: '' }
+		}
+	}
+}

@@ -1,0 +1,26 @@
+.search-form {
+	&__inner {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+
+	&__input-wrap {
+		display: flex;
+		flex: 5 0 200px;
+		margin: 5px;
+	}
+
+	&__field[type='search'] {
+		box-sizing: border-box;
+		width: 100%;
+		max-width: 100%;
+		min-width: 50px;
+	}
+
+	&__submit[type='submit'] {
+		flex: 1 0 auto;
+		margin: 5px;
+	}
+}

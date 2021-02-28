@@ -1,0 +1,93 @@
+/* Widget cherry ui */
+.widget-rendered {
+	.cherry-ui-repeater-container {
+		padding: 5px;
+		.cherry-ui-repeater-item {
+			margin: 0 0 5px;
+			.cheryr-ui-repeater-content-box {
+				margin: 0 -10px;
+			}
+		}
+		.cherry-ui-repeater-add {
+			margin: 10px 0;
+		}
+	}
+}
+
+.cherry-ui-colorpicker-wrapper .wp-picker-container.wp-picker-active {
+	z-index: 1050;
+}
+
+.cherry-ui-colorpicker-wrapper .wp-picker-container .wp-color-result.button {
+	padding: 0 0 0 30px;
+}
+
+/* Customizer cherry ui */
+.customize-control {
+	// iconpicker style
+	> .cherry-ui-container {
+		margin-bottom: 0;
+
+		&.fixed {
+			.cherry-ui-iconpicker-group {
+				max-width: 270px;
+			}
+		}
+
+		.iconpicker-container {
+			.input-group-addon,
+			.iconpicker-input {
+				background: #fff;
+			}
+			.iconpicker-popover {
+				.popover-title {
+					background: #fefefe;
+				}
+				.arrow {
+					border-bottom-color: #fefefe;
+				}
+			}
+		}
+	}
+}
+
+/* FIX cherry5-ui-button style conflict */
+.cherry5-ui-button.ui-button {
+	height: auto;
+}
+
+#style-switch-confirm ~ .ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: none;
+
+	.ui-button {
+		margin-left: 0;
+	}
+}
+
+/* Post Options Meta Box Style */
+#techguide-post-sources,
+#techguide-post-via {
+
+	.cherry-ui-repeater-min .cheryr-ui-repeater-content-box {
+		display: none;
+	}
+
+	.cheryr-ui-repeater-content-box {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+
+	.label-wrap,
+	.url-wrap {
+		flex: 1 0 250px;
+		padding: 5px 10px;
+	}
+}
+
+/* Term meta */
+.techguide_term_settings .techguide_term_tabs {
+	padding: 10px 0;
+}

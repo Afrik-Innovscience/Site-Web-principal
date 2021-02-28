@@ -1,0 +1,89 @@
+.comment {
+	&-respond {
+		.comment-list + &,
+		.comment-navigation + & {
+			margin-top: 40px;
+		}
+		.comment-list & {
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+
+		.comment-notes,
+		.logged-in-as,
+		.must-log-in {
+			margin-bottom: 10px;
+			font-size: 12px;
+		}
+	}
+	&-reply-title {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid;
+
+		small {
+			margin-left: auto;
+		}
+
+		#cancel-comment-reply-link {
+			font-size: 12px;
+			margin-left: 15px;
+		}
+	}
+	&-form {
+		display: flex;
+		flex-wrap: wrap;
+		@include grid-indent(5px);
+
+		> * {
+			width: 100%;
+		}
+
+		&-comment,
+		&-author,
+		&-email,
+		&-url,
+		&-cookies-consent {
+			position: relative;
+			margin: 0 0 10px 0;
+
+			label {
+				font-size: 12px;
+				line-height: 1.6;
+			}
+		}
+
+		&-author,
+		&-email {
+			@include media-breakpoint-up(xl) {
+				width: 50%;
+
+				.comment-list & {
+					width: 100%;
+				}
+			}
+		}
+
+		&-cookies-consent {
+			input[type="checkbox"] {
+				margin-right: 5px;
+			}
+		}
+
+		&__field {
+			width: 100%;
+			vertical-align: top;
+		}
+
+		.form-submit {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.required {
+	color: $color__not-valid;
+}

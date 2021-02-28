@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------
+## 404
+--------------------------------------------------------------*/
+.not-found {
+	text-align: center;
+
+	&.error-404 {
+		padding: 90px 0;
+
+		.page-title {
+			margin-bottom: 0;
+			font-size: 10em;
+			line-height: 1;
+			letter-spacing: 0.04em;
+
+			@include media-breakpoint-up(md) {
+				font-size: 16.667em;
+			}
+		}
+
+		.page-sub-title {
+			margin-top: -0.5em;
+			font-size: 2em;
+			line-height: 1;
+			letter-spacing: 0.04em;
+			text-transform: uppercase;
+
+			@include media-breakpoint-up(md) {
+				font-size: 3.667em;
+			}
+		}
+
+		.page-content {
+			@include media-breakpoint-up(md) {
+				margin-top: 60px;
+			}
+		}
+	}
+
+	&.no-results {
+		.position-fullwidth & {
+			padding: 80px 0;
+		}
+	}
+
+	p {
+		font-size: 22px;
+		font-weight: normal;
+	}
+
+	.search-form {
+		max-width: 680px;
+		margin: 35px auto 0;
+	}
+}

@@ -1,0 +1,44 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">techguide_single_post_author</custom-field>
+		<custom-field action="copy">techguide_single_post_publish_date</custom-field>
+		<custom-field action="copy">techguide_single_post_categories</custom-field>
+		<custom-field action="copy">techguide_single_post_tags</custom-field>
+		<custom-field action="copy">techguide_single_post_comments</custom-field>
+		<custom-field action="copy">techguide_single_post_reading_time</custom-field>
+		<custom-field action="copy">techguide_single_post_trend_views</custom-field>
+		<custom-field action="copy">techguide_single_post_trend_rating</custom-field>
+		<custom-field action="copy">techguide_single_post_share_buttons</custom-field>
+		<custom-field action="copy">techguide_single_post_sources</custom-field>
+		<custom-field action="copy">techguide_single_post_via</custom-field>
+		<custom-field action="copy">techguide_single_respond_button</custom-field>
+		<custom-field action="copy">techguide_single_author_block</custom-field>
+		<custom-field action="copy">techguide_single_post_navigation</custom-field>
+		<custom-field action="copy">techguide_single_post_reading_progress</custom-field>
+		<custom-field action="copy">techguide_related_posts_visible</custom-field>
+
+		<custom-field action="copy">techguide-post-video-source-type</custom-field>
+		<custom-field action="copy">techguide-post-video-embed-url</custom-field>
+		<custom-field action="copy">techguide-post-wp-video</custom-field>
+		<custom-field action="copy">techguide-post-audio-source-type</custom-field>
+		<custom-field action="copy">techguide-post-audio-embed-url</custom-field>
+		<custom-field action="copy">techguide-post-wp-audio</custom-field>
+		<custom-field action="copy">techguide-post-gallery</custom-field>
+		<custom-field action="copy">techguide-post-link</custom-field>
+		<custom-field action="copy">techguide-post-link-target</custom-field>
+		<custom-field action="copy">techguide-post-quote</custom-field>
+		<custom-field action="copy">techguide-post-quote-cite</custom-field>
+
+		<custom-field action="copy">techguide_sidebar_position</custom-field>
+		<custom-field action="copy">techguide_page_layout_style</custom-field>
+		<custom-field action="copy">techguide_breadcrumbs_visibillity</custom-field>
+	</custom-fields>
+	<admin-texts>
+		<key name="theme_mods_techguide">
+			<key name="footer_copyright"/>
+			<key name="blog_sticky_label"/>
+			<key name="blog_read_more_text"/>
+			<key name="related_posts_block_title"/>
+		</key>
+	</admin-texts>
+</wpml-config>

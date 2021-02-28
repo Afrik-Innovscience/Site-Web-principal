@@ -1,0 +1,27 @@
+$user-social-map: (
+	'facebook':    $facebook,
+	'twitter':     $twitter,
+	'google-plus': $google-plus,
+	'instagram':   $instagram,
+	'linkedin':    $linkedin,
+);
+
+.cs-user-social {
+
+	* + & {
+		margin-top: 10px;
+	}
+
+	@each $network, $color in $user-social-map {
+		&__link--#{$network}:hover {
+			color: $color;
+		}
+	}
+
+	&__link-icon {
+		width: 25px;
+		height: 25px;
+		font-size: 18px;
+		line-height: 25px;
+	}
+}

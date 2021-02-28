@@ -1,0 +1,144 @@
+.embed-responsive {
+	position: relative;
+	display: block;
+	padding: 0;
+
+	.embed-responsive-item,
+	iframe,
+	embed,
+	object {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		height: 100%;
+		width: 100%;
+		border: 0;
+	}
+
+	// Modifier class for 16:9 aspect ratio
+	&.embed-responsive-16by9 {
+		padding-bottom: $embed__ratio;
+	}
+
+	// Modifier class for 4:3 aspect ratio
+	&.embed-responsive-4by3 {
+		padding-bottom: 75%;
+	}
+}
+
+/* mejs-video */
+.mejs-video {
+	.mejs-poster {
+		background-size: cover;
+	}
+
+	.mejs-overlay-button {
+		$size: 50px;
+
+		position: relative;
+		width: $size;
+		height: $size;
+		text-align: center;
+		outline: none;
+		background-image: none;
+		color: $color__white;
+		transition: .1s;
+
+		&:before {
+			content: '\f40d';
+			@extend %material-design-icons;
+			font-size: $size;
+			line-height: 1;
+		}
+	}
+}
+
+.mejs-audio-container-wrapper,
+.wp-video,
+.wp-playlist.wp-video-playlist,
+.wp-playlist.wp-audio-playlist {
+	.entry-content & {
+		&:not(:first-child) {
+			margin-top: 25px;
+		}
+		&:not(:last-child) {
+			margin-bottom: 25px;
+		}
+	}
+}
+
+/* Facebook embed */
+.fb_iframe_widget {
+	max-width: 100%;
+	> span {
+		max-width: 100%;
+	}
+}
+
+/* Video popup */
+.video-popup {
+	&__overlay {
+		position: relative;
+	}
+
+	&__overlay-image {
+		position: relative;
+		background: $color__dark;
+
+		img {
+			width: 100%;
+			object-fit: cover;
+
+			.ie & {
+				font-family: 'object-fit: cover';
+			}
+		}
+
+		&.has-overlay-image {
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				background: $color__dark;
+				opacity: 0;
+				transition: .1s;
+
+				.video-popup__trigger:hover & {
+					opacity: 0.3;
+				}
+			}
+		}
+
+		&.no-overlay-image {
+			height: 300px;
+		}
+	}
+
+	&__play-icon {
+		$size: 73px;
+
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: $size;
+		line-height: 1;
+		text-align: center;
+		color: $color__white;
+		transition: .1s;
+
+		&:before {
+			content: '\f40d';
+			@extend %material-design-icons;
+		}
+	}
+
+	& &__content {
+		height: 0;
+		overflow: hidden;
+	}
+}

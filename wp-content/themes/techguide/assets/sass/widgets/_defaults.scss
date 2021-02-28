@@ -1,0 +1,165 @@
+.widget {
+	ul {
+		margin-left: 0;
+		margin-bottom: 0;
+		padding: 0;
+		list-style: none;
+
+		li {
+			& + li,
+			> ul,
+			> ol {
+				margin-top: 15px;
+			}
+		}
+
+		li > ul,
+		li > ol {
+			margin-left: 20px;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+## Widget Calendar
+--------------------------------------------------------------*/
+.widget_calendar {
+	.calendar_wrap {
+		@include border-radius();
+	}
+
+	table {
+		position: relative;
+		table-layout: fixed;
+		width: 100%;
+		margin-bottom: 0;
+		font-size: 12px;
+		font-weight: 700;
+		text-align: center;
+
+		th,
+		td,
+		thead th,
+		tbody + tbody {
+			border: none;
+		}
+	}
+
+	caption {
+		padding: 15px 0 10px;
+		text-transform: uppercase;
+	}
+
+	thead {
+		font-size: 10px;
+	}
+	th {
+		padding: 12px 5px;
+	}
+
+	tbody td {
+
+		&,
+		a {
+			line-height: 55px;
+			height: 55px;
+		}
+
+		a {
+			display: inline-block;
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+	tfoot td {
+		position: absolute;
+		top: 15px;
+		a {
+			font-size: 0;
+			&:before {
+				@extend %font-awesome-icon;
+				font-size: 10px;
+				transition: .1s;
+			}
+		}
+		&#prev {
+			left: 20px;
+			a:before {
+				content: '\f053';
+			}
+		}
+		&#next {
+			right: 20px;
+			a:before {
+				content: '\f054';
+			}
+		}
+
+	}
+
+	#next {
+		text-align: right;
+	}
+}
+
+/*--------------------------------------------------------------
+## Widget Tag Cloud
+--------------------------------------------------------------*/
+.tagcloud {
+	margin-left: -2px;
+	margin-right: -2px;
+	a {
+		margin: 4px 2px;
+		@include term-link-style();
+		border: 1px solid;
+	}
+}
+
+/*--------------------------------------------------------------
+## Widget Recent Posts
+--------------------------------------------------------------*/
+.widget_recent_entries {
+	a {
+		font-weight: 700;
+	}
+
+	.post-date {
+		display: block;
+		font-size: 12px;
+	}
+}
+
+/*--------------------------------------------------------------
+## Widget Recent Comments
+--------------------------------------------------------------*/
+#recentcomments {
+	.comment-author-link,
+	a {
+		font-weight: 700;
+	}
+}
+
+/*--------------------------------------------------------------
+## Widget RSS
+--------------------------------------------------------------*/
+.rss-widget-icon {
+	vertical-align: baseline;
+}
+
+.widget_rss {
+	.rss-date,
+	cite {
+		display: block;
+	}
+
+	.rss-date,
+	.rssSummary {
+		font-size: 12px;
+	}
+
+	.rss-date,
+	.rssSummary,
+	cite {
+		margin-top: 5px;
+	}
+}

@@ -1,0 +1,67 @@
+.wpcf7 {
+	& &-form-control-wrap {
+		position: relative;
+		display: block;
+		input {
+			width: 100%;
+		}
+	}
+
+	& &-not-valid {
+		border-color:$color__not-valid;
+	}
+
+	& &-not-valid-tip {
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-size: 12px;
+		color:$color__not-valid;
+	}
+
+	& &-response-output {
+		font-size: 14px;
+		margin: 1em 0;
+	}
+
+	& &-validation-errors,
+	& &-mail-sent-ng,
+	& &-mail-sent-ok {
+		padding: 0;
+		border: none;
+	}
+
+	& &-validation-errors,
+	& &-mail-sent-ng {
+		color: $color__not-valid;
+	}
+
+	& &-mail-sent-ok {
+		color: $color__valid;
+	}
+
+	input[type="submit"],
+	input[type="reset"],
+	button {
+		@extend %btn;
+	}
+
+	& &-form .ajax-loader {
+		margin: 0 10px;
+	}
+
+	&-form {
+		p {
+			margin-bottom: 10px;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	input[type='radio'],
+	input[type='checkbox'] {
+		width: auto;
+	}
+}

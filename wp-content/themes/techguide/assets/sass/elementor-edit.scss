@@ -1,0 +1,52 @@
+.elementor-control-content {
+	.cherry-control {
+		padding: 10px 0;
+	}
+	.cherry-control__content {
+		flex: 0 1 100%;
+	}
+	.cherry-ui-kit.cherry-ui-repeater-container {
+		padding: 10px;
+	}
+	.cherry-ui-kit .cherry-ui-repeater-item {
+		padding: 10px;
+	}
+	.cherry-ui-kit .cherry-ui-repeater-actions-box {
+		margin: -10px -10px 20px -10px;
+	}
+	input.cherry-radio-input {
+		display: none;
+	}
+
+	// additional style
+	.cherry-slider-unit {
+		border: none;
+	}
+
+	.cherry-ui-kit.cherry-control .cherry-ui-container .cherry-ui-colorpicker-wrapper {
+		.wp-picker-container {
+			float: none;
+
+			&.wp-picker-active {
+				position: relative;
+				z-index: 1050;
+				right: 20px;
+			}
+
+			.iris-picker {
+				position: relative;
+			}
+		}
+	}
+}
+
+.elementor-panel{
+
+	// icon control
+	.elementor-control-type-repeater .elementor-repeater-row-tools .elementor-repeater-row-item-title i {
+		margin-right: 5px;
+	}
+	.elementor-control-type-icon .select2-selection__rendered i {
+		margin-right: 3px;
+	}
+}

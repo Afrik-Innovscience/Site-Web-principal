@@ -1,0 +1,19 @@
+.site-logo {
+	margin: 0;
+
+	&--image {
+
+		&,
+		& .custom-logo-link {
+			line-height: 1;
+		}
+	}
+}
+
+h1.site-logo--image {
+	font-size: 14px;
+}
+
+.site-description {
+	font-size: 12px;
+}

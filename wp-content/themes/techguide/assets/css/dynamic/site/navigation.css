@@ -1,0 +1,77 @@
+/* #Paginations */
+.site-content .page-links a,
+.site-content .page-links > .page-links__item,
+.nav-links .page-numbers,
+.woocommerce-pagination .page-numbers,
+.posts-load-more-btn {
+	font-style: $custom_font_style;
+	font-weight: $custom_font_weight;
+	font-family: @font_family( $custom_font_family );
+	letter-spacing: $custom_letter_spacing{em};
+}
+
+.site-content .page-links a,
+.nav-links .page-numbers,
+.woocommerce-pagination .page-numbers {
+	color: $light_color;
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+
+.site-content .page-links a:hover,
+.site-content .page-links > .page-links__item,
+.nav-links a.page-numbers:hover,
+.nav-links .page-numbers.current,
+.woocommerce-pagination a.page-numbers:hover,
+.woocommerce-pagination .page-numbers.current {
+	color: $regular_accent_color_1;
+	background-color: transparent;
+	border-color: @lighten($grey_color_1, 2);
+}
+
+.posts-load-more-nav,
+.pagination,
+.woocommerce nav.woocommerce-pagination,
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+	border-color: @lighten($grey_color_1, 2);
+}
+
+.posts-load-more-btn {
+	color: $regular_link_color;
+}
+.posts-load-more-btn:not([disabled]):hover {
+	color: $regular_link_hover_color;
+}
+
+/* #Post-Comment navigation */
+.posts-navigation a:not(:hover) .nav-text ,
+.post-navigation a:not(:hover) .nav-text {
+	color: @darken($grey_color_1, 19);
+}
+
+.comment-navigation a:hover,
+.posts-navigation a:hover,
+.post-navigation a:hover{
+	color: $regular_link_color;
+}
+
+/* #Breadcrumbs */
+.site-content__wrap .breadcrumbs__inner {
+	border-color: @lighten($grey_color_1, 2);
+}
+.breadcrumbs__wrap {
+	font-style: $breadcrumbs_font_style;
+	font-weight: $breadcrumbs_font_weight;
+	font-size: $breadcrumbs_font_size{px};
+	line-height: $breadcrumbs_line_height;
+	font-family: @font_family( $breadcrumbs_font_family );
+	letter-spacing: $breadcrumbs_letter_spacing{em};
+	text-transform: $breadcrumbs_text_transform;
+}
+
+.breadcrumbs__item-target,
+.breadcrumbs__item-sep {
+	color: $grey_color_1;
+}

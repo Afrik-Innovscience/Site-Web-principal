@@ -1,0 +1,155 @@
+.related-posts {
+	margin-top: 50px;
+
+	.content-separate-style & {
+		margin-top: 30px;
+	}
+
+	&__header {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid;
+	}
+
+	&__nav {
+		margin: 0;
+		padding: 5px 0;
+		font-size: 14px;
+		line-height: 1.5;
+		list-style: none;
+	}
+
+	&__nav-item {
+		display: inline-block;
+		padding: 0;
+		margin-top: 0;
+		cursor: pointer;
+
+		&:not(:last-child) {
+			margin-right: 15px;
+
+			@include media-breakpoint-up(md) {
+				margin-right: 25px;
+			}
+		}
+	}
+
+	&__title {
+		margin-right: 30px;
+		margin-bottom: 0;
+
+		&:only-child {
+			margin-right: 0;
+		}
+	}
+
+	&__content {
+		position: relative;
+
+		&:before,
+		&:after {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			z-index: 99;
+			display: none;
+			width: 50px;
+			height: 50px;
+			margin-top: -25px;
+			margin-left: -25px;
+			border-radius: 50%;
+			opacity: 0.5;
+			@include doubleBounce;
+		}
+
+		&:after {
+			animation-delay: -1s;
+		}
+
+		.related-posts.processing & {
+			&:before,
+			&:after {
+				display: block;
+			}
+
+			.related-post,
+			.no-posts {
+				opacity: 0;
+			}
+		}
+	}
+
+	&__tab {
+		display: none;
+
+		&.active{
+			display: block;
+		}
+	}
+
+	// Related post style
+	.related-post,
+	.no-posts {
+		opacity: 1;
+		transition: .3s;
+	}
+
+	.no-posts {
+		margin-top: 10px;
+	}
+
+	.related-post {
+		margin-top: 10px;
+
+		&.has-thumb {
+			.related-post__inner {
+				display: flex;
+				flex-wrap: wrap;
+				@include grid-indent(10px);
+			}
+
+			.related-post__thumb {
+				flex: 1 0 130px;
+				margin-top: 10px;
+
+				@include media-breakpoint-down(xs) {
+					flex: 1 0 100px;
+				}
+			}
+
+			.related-post__content {
+				flex: 100 0 120px;
+			}
+		}
+
+		&__content {
+			margin-top: 10px;
+		}
+
+		.post-thumbnail {
+			&__link {
+				margin-bottom: 0;
+			}
+
+			&__img {
+				width: 100%;
+			}
+		}
+
+		.entry-meta:not(:empty) {
+			margin-top: 5px;
+		}
+
+		.entry-content {
+			font-size: 12px;
+
+			> *:first-child {
+				margin-top: 5px;
+			}
+		}
+	}
+}

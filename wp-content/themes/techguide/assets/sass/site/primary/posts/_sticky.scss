@@ -1,0 +1,36 @@
+.sticky {
+	display: block;
+
+	.entry-title a,
+	&__label {
+		vertical-align: middle;
+	}
+	&__label {
+		display: inline-block;
+		text-align: center;
+		font-size: 16px;
+		line-height: 30px;
+		height: 30px;
+		border-radius: 30px;
+		margin-right: 10px;
+		transition: .3s ease-out;
+		i {
+			font-size: 20px;
+			line-height: 30px;
+		}
+		&.type-icon {
+			width: 30px;
+		}
+		&.type-label,
+		&.type-both {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		&.type-both {
+			i {
+				float: left;
+				margin-right: 5px;
+			}
+		}
+	}
+}

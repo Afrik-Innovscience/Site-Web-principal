@@ -1,0 +1,109 @@
+// General styles
+%btn {
+	display: inline-block;
+	max-width: 100%;
+	padding: $button__indents;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: center;
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: none;
+	@include border-radius();
+	transition: .1s;
+
+	&:focus {
+		outline: 0;
+	}
+}
+
+@mixin btn {
+	@extend %btn;
+}
+
+%btn-lg {
+	padding: $button__indents_y + 3.5px $button__indents_x + 10px;
+	font-size: 16px;
+}
+
+.btn {
+	@include btn;
+
+	&.btn-fullwidth {
+		width: 100%;
+	}
+
+	&.btn-lg{
+		@extend %btn-lg;
+	}
+
+	i {
+		margin-left: 5px;
+	}
+}
+
+.btn-link {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1.5;
+	text-transform: uppercase;
+
+	i {
+		margin-left: 5px;
+	}
+}
+
+
+/*Button*/
+.add_to_cart_button,
+.btn,
+a.btn,
+.elementor-widget .elementor-button,
+.popup-type-default .cherry-popup-subscribe__submit,
+.popup-type-login .cherry-popup-login__login-in,
+.popup-type-signup .cherry-popup-register__sign-up,
+.popup-type-subscribe .cherry-popup-subscribe__submit,
+.woocommerce #respond input#submit,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button,
+.woocommerce a.button.alt,
+.woocommerce a.button.loading,
+.woocommerce button.button,
+.woocommerce button.button.alt,
+.woocommerce input.button,
+.woocommerce input.button.alt,
+.woocommerce input.button:disabled,
+.woocommerce input.button[disabled]:disabled,
+form button,
+form input[type=button],
+form input[type=reset],
+form input[type=submit],
+.elementor-widget .elementor-button.elementor-size-md,
+.btn.btn-lg,
+form button.btn-lg,
+form input[type='button'].btn-lg,
+form input[type='reset'].btn-lg,
+form input[type='submit'].btn-lg,
+.popup-type-login .cherry-popup-login__login-in,
+.popup-type-signup .cherry-popup-register__sign-up,
+.popup-type-subscribe .cherry-popup-subscribe__submit,
+.popup-type-default .cherry-popup-subscribe__submit,
+.elementor-widget .elementor-button.elementor-size-lg,
+.jet-subscribe-form .jet-subscribe-form__submit.elementor-button.elementor-size-md {
+	font-size: 18px;
+	letter-spacing: 0.08em;
+	font-weight: 400;
+	padding: 8.5px 42px 5px;
+}
+
+.search-form__submit[type=submit] {
+	padding-bottom: 8px;
+}
+
+.jet-subscribe-form .jet-subscribe-form__submit.elementor-button.elementor-size-md {
+	padding: 12px 42px 6px;
+}

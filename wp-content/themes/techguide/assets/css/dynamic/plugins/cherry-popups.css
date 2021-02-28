@@ -1,0 +1,59 @@
+.cherry-popup-wrapper .cherry-popup-close-button span {
+	 color: $regular_text_color;
+ }
+.cherry-popup-wrapper .cherry-popup-close-button:hover span {
+	color: $regular_accent_color_1;
+}
+@media (min-width: 768px) {
+	.cherry-popup-wrapper .cherry-popup-close-button span,
+	.cherry-popup-wrapper.popup-type-default .cherry-popup-close-button span{
+		color: $light_color;
+		background-color: $regular_accent_color_1;
+	}
+	.cherry-popup-wrapper .cherry-popup-close-button:hover span,
+	.cherry-popup-wrapper.popup-type-default .cherry-popup-close-button:hover span{
+		color: $regular_accent_color_1;
+		background-color: $light_color;
+	}
+}
+
+.cherry-popup-wrapper .cherry-popup-title h4 {
+	color: $regular_h4_color;
+}
+
+.cherry-popup-wrapper input[type='text']:focus,
+.cherry-popup-wrapper input[type='email']:focus,
+.cherry-popup-wrapper input[type='url']:focus,
+.cherry-popup-wrapper input[type='password']:focus {
+	border-color: $regular_accent_color_1;
+}
+
+.cherry-popup-wrapper .cherry-popup-check.checked .marker{
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+
+.popup-type-login .cherry-popup-login__login-in,
+.popup-type-signup .cherry-popup-register__sign-up,
+.popup-type-default .cherry-popup-subscribe__submit,
+.popup-type-subscribe .cherry-popup-subscribe__submit {
+	font-style: $custom_font_style;
+	font-weight: $custom_font_weight;
+	font-family: @font_family( $custom_font_family );
+	letter-spacing: $custom_letter_spacing{em};
+}
+
+.popup-type-login .cherry-popup-login__login-in,
+.popup-type-signup .cherry-popup-register__sign-up,
+.popup-type-default .cherry-popup-subscribe__submit,
+.popup-type-subscribe .cherry-popup-subscribe__submit {
+	color: $light_color;
+	background-color: $regular_accent_color_1;
+}
+.popup-type-login .cherry-popup-login__login-in:hover,
+.popup-type-signup .cherry-popup-register__sign-up:hover,
+.popup-type-login .cherry-popup-login__login-in:active,
+.popup-type-signup .cherry-popup-register__sign-up:active {
+	color: $light_color;
+	background-color: @darken($regular_accent_color_1, 10);
+}

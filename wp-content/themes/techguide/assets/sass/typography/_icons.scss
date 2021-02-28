@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------
+## Icons
+--------------------------------------------------------------*/
+%font-awesome-icon {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin font-awesome-icon {
+	@extend %font-awesome-icon;
+}
+
+.mdi {
+	line-height: 1;
+}
+
+%material-design-icons {
+	display: inline-block;
+	font: normal normal normal 24px/1 "Material Design Icons";
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin material-design-icons {
+	@extend %material-design-icons;
+}

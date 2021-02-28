@@ -1,0 +1,50 @@
+.header-container {
+	padding: 25px 0 0;
+}
+
+.header-container {
+	&__flex {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+
+		@include media-breakpoint-up(md) {
+			flex-wrap: wrap;
+		}
+
+		.jet-desktop-menu-active &,
+		.jet-mobile-menu-active & {
+			flex-wrap: wrap;
+		}
+
+		.jet-mobile-menu-active & {
+			justify-content: center;
+		}
+
+		.main-navigation {
+			width: auto;
+
+			@include media-breakpoint-up(md) {
+				width: 100%;
+				margin-top: 25px;
+			}
+
+			.jet-desktop-menu-active & {
+				margin-top: 25px;
+			}
+
+			.jet-desktop-menu-active &,
+			.jet-mobile-menu-active & {
+				width: 100%;
+			}
+		}
+	}
+}
+
+.site-branding {
+	flex: 0 0 auto;
+}
+
+@import "header/logo";   // +

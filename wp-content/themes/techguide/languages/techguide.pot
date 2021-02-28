@@ -1,0 +1,2928 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: techguide\n"
+"POT-Creation-Date: 2018-06-04 10:47+0300\n"
+"PO-Revision-Date: 2016-02-15 11:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: TemplateMonster\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:338
+msgid "Browse:"
+msgstr ""
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:340
+#: inc/template-tags.php:215
+msgid "404 Not Found"
+msgstr ""
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:341
+#: inc/template-tags.php:216
+msgid "Archives"
+msgstr ""
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:342
+#: inc/template-tags.php:218
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:343
+#: inc/template-tags.php:220
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:344
+#: inc/template-tags.php:222
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:345
+#: inc/template-tags.php:224
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:365
+msgid "Home"
+msgstr ""
+
+#: cherry-framework/modules/cherry-customizer/cherry-customizer.php:275
+msgid "Untitled Panel"
+msgstr ""
+
+#: cherry-framework/modules/cherry-customizer/cherry-customizer.php:311
+msgid "Untitled Section"
+msgstr ""
+
+#: cherry-framework/modules/cherry-customizer/cherry-customizer.php:345
+msgid "Untitled Control"
+msgstr ""
+
+#: cherry-framework/modules/cherry-db-updater/cherry-db-updater.php:103
+#, php-format
+msgid ""
+"Module DB Updater init error in %s - version and slug is required arguments"
+msgstr ""
+
+#: cherry-framework/modules/cherry-db-updater/cherry-db-updater.php:104
+msgid "We need to update your database to the latest version."
+msgstr ""
+
+#: cherry-framework/modules/cherry-db-updater/cherry-db-updater.php:105
+msgid "Update complete, thank you for updating to the latest version!"
+msgstr ""
+
+#: cherry-framework/modules/cherry-db-updater/cherry-db-updater.php:329
+msgid "Start Update"
+msgstr ""
+
+#: cherry-framework/modules/cherry-db-updater/cherry-db-updater.php:366
+msgid "Data Update"
+msgstr ""
+
+#: cherry-framework/modules/cherry-handler/cherry-handler.php:76
+msgid "Unable to process the request without nonce or server error"
+msgstr ""
+
+#: cherry-framework/modules/cherry-handler/cherry-handler.php:77
+msgid "No right for this action"
+msgstr ""
+
+#: cherry-framework/modules/cherry-handler/cherry-handler.php:78
+msgid "Stop CHEATING!!!"
+msgstr ""
+
+#: cherry-framework/modules/cherry-handler/cherry-handler.php:79
+msgid "Access is allowed"
+msgstr ""
+
+#: cherry-framework/modules/cherry-handler/cherry-handler.php:80
+msgid "Please wait, processing the previous request"
+msgstr ""
+
+#: cherry-framework/modules/cherry-ui-elements/inc/class-cherry-lock-element.php:63
+msgid "Unlocked in PRO"
+msgstr ""
+
+#: cherry-framework/modules/cherry5-insert-shortcode/inc/class-cherry5-insertion-button.php:64
+msgid "Cherry Shortcodes"
+msgstr ""
+
+#: cherry-framework/modules/cherry5-insert-shortcode/inc/class-cherry5-insertion-popup.php:125
+msgid "insert shortcode"
+msgstr ""
+
+#: cherry-framework/modules/cherry5-insert-shortcode/inc/class-cherry5-insertion-popup.php:145
+msgid "Shortcode List"
+msgstr ""
+
+#: cherry-framework/modules/cherry5-insert-shortcode/inc/class-cherry5-insertion-popup.php:203
+msgid "Shortcode not found."
+msgstr ""
+
+#: cherry-framework/modules/cherry5-insert-shortcode/inc/class-cherry5-insertion-popup.php:282
+msgid "Shortcode content."
+msgstr ""
+
+#: cherry-framework/modules/cherry5-insert-shortcode/inc/class-cherry5-insertion-popup.php:283
+msgid "Input shortcode content."
+msgstr ""
+
+#: cherry-framework/modules/cherry5-insert-shortcode/inc/class-cherry5-insertion-popup.php:298
+msgid "Shortcode not a have options."
+msgstr ""
+
+#: cherry-ld-layout-panel-manifest.php:14 inc/classes/class-skins-setup.php:149
+msgid "Skins"
+msgstr ""
+
+#: cherry-ld-layout-panel-manifest.php:15
+msgid "Headers"
+msgstr ""
+
+#: cherry-ld-layout-panel-manifest.php:16
+msgid "Footers"
+msgstr ""
+
+#: cherry-ld-layout-panel-manifest.php:25 config/import.php:13
+#: config/plugins-wizard.php:189
+msgid "News Portal — 24 Techguide"
+msgstr ""
+
+#: cherry-ld-layout-panel-manifest.php:32 config/import.php:34
+#: config/plugins-wizard.php:228
+msgid "Personal Blog — Alice Burton"
+msgstr ""
+
+#: cherry-ld-layout-panel-manifest.php:39 config/import.php:27
+#: config/plugins-wizard.php:215
+msgid "Lifestyle — Slife"
+msgstr ""
+
+#: cherry-ld-layout-panel-manifest.php:46 config/import.php:20
+#: config/plugins-wizard.php:202
+msgid "Fashion Blog — Fashion Daily"
+msgstr ""
+
+#: cherry-ld-layout-panel-manifest.php:53 config/import.php:41
+#: config/plugins-wizard.php:241
+msgid "Sports — ChampionNews"
+msgstr ""
+
+#: cherry-ld-layout-panel-manifest.php:60 config/import.php:48
+#: config/plugins-wizard.php:255
+msgid "Tech Blog — Techguide"
+msgstr ""
+
+#: cherry-ld-layout-panel-manifest.php:67 config/import.php:62
+#: config/plugins-wizard.php:285
+msgid "Crypto-currency Blog— Cryprate"
+msgstr ""
+
+#: cherry-ld-layout-panel-manifest.php:74 config/import.php:76
+#: config/plugins-wizard.php:311
+msgid "Photographer Blog — Photto"
+msgstr ""
+
+#: cherry-ld-layout-panel-manifest.php:81 config/import.php:55
+#: config/plugins-wizard.php:271
+msgid "Corporate Blog — Investory"
+msgstr ""
+
+#: cherry-ld-layout-panel-manifest.php:88 config/import.php:69
+#: config/plugins-wizard.php:299
+msgid "Woman Blog — Feminine"
+msgstr ""
+
+#: cherry-socialize/sharing/item.php:14
+#, php-format
+msgid "Share on %s"
+msgstr ""
+
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:41 comments.php:64
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:44 comments.php:67
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:45 comments.php:68
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:81
+msgid "Comments are closed."
+msgstr ""
+
+#: config/import.php:91
+msgid "View your site"
+msgstr ""
+
+#: config/import.php:95
+msgid "Take a look at your site"
+msgstr ""
+
+#: config/import.php:99
+msgid "Customize your theme"
+msgstr ""
+
+#: config/import.php:103
+msgid "Proceed to customizing your theme"
+msgstr ""
+
+#: config/menus.php:15
+msgid "Main"
+msgstr ""
+
+#: config/plugins-wizard.php:18
+msgid "Jet Data Importer"
+msgstr ""
+
+#: config/plugins-wizard.php:25
+msgid "Cherry Live Demo Mods Switcher"
+msgstr ""
+
+#: config/plugins-wizard.php:31
+msgid "Cherry Socialize"
+msgstr ""
+
+#: config/plugins-wizard.php:35
+msgid "Cherry Cherry PopUps"
+msgstr ""
+
+#: config/plugins-wizard.php:39
+msgid "Cherry Trending Posts"
+msgstr ""
+
+#: config/plugins-wizard.php:43
+msgid "TM Style Switcher"
+msgstr ""
+
+#: config/plugins-wizard.php:48
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: config/plugins-wizard.php:52
+msgid "Jet Blog For Elementor"
+msgstr ""
+
+#: config/plugins-wizard.php:58
+msgid "Jet Blocks For Elementor"
+msgstr ""
+
+#: config/plugins-wizard.php:64
+msgid "Jet Elements For Elementor"
+msgstr ""
+
+#: config/plugins-wizard.php:70
+msgid "Jet Tabs For Elementor"
+msgstr ""
+
+#: config/plugins-wizard.php:76
+msgid "Jet Theme Core"
+msgstr ""
+
+#: config/plugins-wizard.php:82
+msgid "Jet Tricks"
+msgstr ""
+
+#: config/plugins-wizard.php:88
+msgid "Jet Menu"
+msgstr ""
+
+#: config/plugins-wizard.php:94
+msgid "Jet Reviews For Elementor"
+msgstr ""
+
+#: config/plugins-wizard.php:101
+msgid "Better Recent Comments"
+msgstr ""
+
+#: config/plugins-wizard.php:105
+msgid "Highlight and Share"
+msgstr ""
+
+#: config/plugins-wizard.php:109
+msgid "Stock Ticker"
+msgstr ""
+
+#: config/plugins-wizard.php:113
+msgid "WordPress Social Login"
+msgstr ""
+
+#: config/plugins-wizard.php:118
+msgid "AMP"
+msgstr ""
+
+#: config/plugins-wizard.php:123
+msgid "Woocommerce"
+msgstr ""
+
+#: config/plugins-wizard.php:127
+msgid "TM Woocommerce Ajax Filters"
+msgstr ""
+
+#: config/plugins-wizard.php:133
+msgid "TM WooCommerce Quick View"
+msgstr ""
+
+#: config/plugins-wizard.php:139
+msgid "TM Woocommerce Compare Wishlist"
+msgstr ""
+
+#: config/plugins-wizard.php:143
+msgid "Contact Form 7"
+msgstr ""
+
+#: config/plugins-wizard.php:317 inc/register-style-switcher-presets.php:11
+msgid "Techguide"
+msgstr ""
+
+#: config/post-meta.php:19 config/post-meta.php:414 config/post-meta.php:440
+#: config/term-meta.php:20 inc/customizer.php:2036 inc/customizer.php:2066
+msgid "Inherit"
+msgstr ""
+
+#: config/post-meta.php:23
+msgid "Enable"
+msgstr ""
+
+#: config/post-meta.php:27
+msgid "Disable"
+msgstr ""
+
+#: config/post-meta.php:40
+msgid "Post Options"
+msgstr ""
+
+#: config/post-meta.php:55
+msgid "Post Settings"
+msgstr ""
+
+#: config/post-meta.php:56
+msgid ""
+"You can override the global settings for a single post. If you select "
+"inherit option, global setting will be applied."
+msgstr ""
+
+#: config/post-meta.php:62 config/term-meta.php:135
+#: elementor-addons/blog-addon.php:170 inc/customizer.php:1550
+#: inc/customizer.php:1618 inc/customizer.php:1812
+msgid "Show post author"
+msgstr ""
+
+#: config/post-meta.php:70 config/term-meta.php:143
+#: elementor-addons/blog-addon.php:180 inc/customizer.php:1557
+#: inc/customizer.php:1625
+msgid "Show publish date"
+msgstr ""
+
+#: config/post-meta.php:78 config/term-meta.php:151
+#: elementor-addons/blog-addon.php:190 inc/customizer.php:1564
+#: inc/customizer.php:1632
+msgid "Show categories"
+msgstr ""
+
+#: config/post-meta.php:86 config/term-meta.php:159
+#: elementor-addons/blog-addon.php:200 inc/customizer.php:1571
+#: inc/customizer.php:1639
+msgid "Show tags"
+msgstr ""
+
+#: config/post-meta.php:94 config/term-meta.php:167
+#: elementor-addons/blog-addon.php:210 inc/customizer.php:1578
+#: inc/customizer.php:1646
+msgid "Show comments"
+msgstr ""
+
+#: config/post-meta.php:102 inc/customizer.php:1653
+msgid "Show reading time"
+msgstr ""
+
+#: config/post-meta.php:110 config/term-meta.php:177
+#: elementor-addons/blog-addon.php:221 inc/customizer.php:1585
+#: inc/customizer.php:1660
+msgid "Show views counter"
+msgstr ""
+
+#: config/post-meta.php:118 config/term-meta.php:185
+#: elementor-addons/blog-addon.php:231 inc/customizer.php:1593
+#: inc/customizer.php:1668
+msgid "Show rating"
+msgstr ""
+
+#: config/post-meta.php:126 config/term-meta.php:195
+#: elementor-addons/blog-addon.php:243 inc/customizer.php:1601
+#: inc/customizer.php:1676
+msgid "Show social sharing buttons"
+msgstr ""
+
+#: config/post-meta.php:134 inc/customizer.php:1684
+msgid "Show source"
+msgstr ""
+
+#: config/post-meta.php:142 inc/customizer.php:1691
+msgid "Show via"
+msgstr ""
+
+#: config/post-meta.php:150 inc/customizer.php:1698
+msgid "Show the respond button after post content"
+msgstr ""
+
+#: config/post-meta.php:158 inc/customizer.php:1705
+msgid "Show the author block after each post"
+msgstr ""
+
+#: config/post-meta.php:166 inc/customizer.php:1712
+msgid "Show post navigation"
+msgstr ""
+
+#: config/post-meta.php:174 inc/customizer.php:1719
+msgid "Show reading progress bar"
+msgstr ""
+
+#: config/post-meta.php:182 inc/customizer.php:1735
+msgid "Show related posts block"
+msgstr ""
+
+#: config/post-meta.php:191
+msgid "Post Format Featured"
+msgstr ""
+
+#: config/post-meta.php:197
+msgid "Video Source Type"
+msgstr ""
+
+#: config/post-meta.php:198
+msgid ""
+"Choose video source type. This setting is used for your video post formats."
+msgstr ""
+
+#: config/post-meta.php:201 config/post-meta.php:240
+msgid "Embed URL"
+msgstr ""
+
+#: config/post-meta.php:205 config/post-meta.php:244
+msgid "Media Library"
+msgstr ""
+
+#: config/post-meta.php:215
+msgid "Video Embed URL"
+msgstr ""
+
+#: config/post-meta.php:216
+msgid ""
+"Enter a URL that is compatible with WP built-in oEmbed feature. This setting "
+"is used for your video post formats."
+msgstr ""
+
+#: config/post-meta.php:216 config/post-meta.php:255
+msgid "Learn More"
+msgstr ""
+
+#: config/post-meta.php:217 config/post-meta.php:256 config/post-meta.php:288
+#: config/post-meta.php:346 config/post-meta.php:372
+msgid "URL"
+msgstr ""
+
+#: config/post-meta.php:227
+msgid "Video"
+msgstr ""
+
+#: config/post-meta.php:228
+msgid ""
+"Add video from the media library. This setting is used for your video post "
+"formats."
+msgstr ""
+
+#: config/post-meta.php:229
+msgid "Add Video"
+msgstr ""
+
+#: config/post-meta.php:236
+msgid "Audio Source Type"
+msgstr ""
+
+#: config/post-meta.php:237
+msgid ""
+"Choose audio source type. This setting is used for your audio post formats."
+msgstr ""
+
+#: config/post-meta.php:254
+msgid "Audio Embed URL"
+msgstr ""
+
+#: config/post-meta.php:255
+msgid ""
+"Enter a URL that is compatible with WP built-in oEmbed feature. This setting "
+"is used for your audio post formats."
+msgstr ""
+
+#: config/post-meta.php:266
+msgid "Audio"
+msgstr ""
+
+#: config/post-meta.php:267
+msgid ""
+"Add audio from the media library. This setting is used for your audio post "
+"formats."
+msgstr ""
+
+#: config/post-meta.php:268
+msgid "Add Audio"
+msgstr ""
+
+#: config/post-meta.php:278
+msgid "Image Gallery"
+msgstr ""
+
+#: config/post-meta.php:279
+msgid ""
+"Choose image(s) for the gallery. This setting is used for your gallery post "
+"formats."
+msgstr ""
+
+#: config/post-meta.php:280
+msgid "Add Image(s)"
+msgstr ""
+
+#: config/post-meta.php:286
+msgid "Link"
+msgstr ""
+
+#: config/post-meta.php:287
+msgid ""
+"Enter your external url. This setting is used for your link post formats."
+msgstr ""
+
+#: config/post-meta.php:294
+msgid "Link Target"
+msgstr ""
+
+#: config/post-meta.php:295
+msgid ""
+"Choose your target for the url. This setting is used for your link post "
+"formats."
+msgstr ""
+
+#: config/post-meta.php:297
+msgid "The same frame as it was clicked"
+msgstr ""
+
+#: config/post-meta.php:298
+msgid "A new window or tab"
+msgstr ""
+
+#: config/post-meta.php:306
+msgid "Quote"
+msgstr ""
+
+#: config/post-meta.php:307
+msgid "Enter your quote. This setting is used for your quote post formats."
+msgstr ""
+
+#: config/post-meta.php:308
+msgid "Quote text"
+msgstr ""
+
+#: config/post-meta.php:314
+msgid "Quote Cite"
+msgstr ""
+
+#: config/post-meta.php:315
+msgid ""
+"Enter the quote source. This setting is used for your quote post formats."
+msgstr ""
+
+#: config/post-meta.php:316
+msgid "Cite"
+msgstr ""
+
+#: config/post-meta.php:323
+msgid "Post Source and Via"
+msgstr ""
+
+#: config/post-meta.php:329
+msgid "Post Source"
+msgstr ""
+
+#: config/post-meta.php:330
+msgid "Add the links to the sources which provided information for the post."
+msgstr ""
+
+#: config/post-meta.php:331
+msgid "Post Sources"
+msgstr ""
+
+#: config/post-meta.php:332
+msgid "Add Post Source"
+msgstr ""
+
+#: config/post-meta.php:339 config/post-meta.php:365
+msgid "Label"
+msgstr ""
+
+#: config/post-meta.php:340 config/post-meta.php:366
+msgid "Label*"
+msgstr ""
+
+#: config/post-meta.php:347 config/post-meta.php:373
+msgid "URL*"
+msgstr ""
+
+#: config/post-meta.php:355 config/post-meta.php:357
+#: skins/famelle/template-parts/post/post-meta/meta-via.php:14
+#: skins/investory/template-parts/post/post-meta/meta-via.php:14
+#: template-parts/post/post-meta/meta-via.php:14
+msgid "Via"
+msgstr ""
+
+#: config/post-meta.php:356
+msgid "Add the link to the source where the post is currently published."
+msgstr ""
+
+#: config/post-meta.php:358
+msgid "Add Via"
+msgstr ""
+
+#: config/post-meta.php:388
+msgid "Page settings"
+msgstr ""
+
+#: config/post-meta.php:403
+msgid "Layout Options"
+msgstr ""
+
+#: config/post-meta.php:408 inc/customizer.php:107
+msgid "Page Layout Style"
+msgstr ""
+
+#: config/post-meta.php:409
+msgid ""
+"Page layout style global settings redefining. If you select inherit option, "
+"global setting will be applied for this layout"
+msgstr ""
+
+#: config/post-meta.php:418 inc/customizer.php:112
+msgid "Boxed"
+msgstr ""
+
+#: config/post-meta.php:422 inc/customizer.php:113
+msgid "Framed"
+msgstr ""
+
+#: config/post-meta.php:426 inc/customizer.php:114
+msgid "Fullwidth"
+msgstr ""
+
+#: config/post-meta.php:434
+msgid "Sidebar layout"
+msgstr ""
+
+#: config/post-meta.php:435
+msgid ""
+"Sidebar position global settings redefining. If you select inherit option, "
+"global setting will be applied for this layout"
+msgstr ""
+
+#: config/post-meta.php:444 config/term-meta.php:63 inc/customizer.php:1316
+#: inc/customizer.php:1328 inc/customizer.php:1340
+msgid "Sidebar on left side"
+msgstr ""
+
+#: config/post-meta.php:448 config/term-meta.php:64 inc/customizer.php:1317
+#: inc/customizer.php:1329 inc/customizer.php:1341
+msgid "Sidebar on right side"
+msgstr ""
+
+#: config/post-meta.php:452
+msgid "No sidebar"
+msgstr ""
+
+#: config/post-meta.php:462 inc/customizer.php:61 inc/customizer.php:1134
+msgid "Breadcrumbs"
+msgstr ""
+
+#: config/post-meta.php:467
+msgid "Breadcrumbs visibility"
+msgstr ""
+
+#: config/post-meta.php:468
+msgid ""
+"Breadcrumbs visibility global settings redefining. If you select inherit "
+"option, global setting will be applied for this layout"
+msgstr ""
+
+#: config/sidebars.php:16 inc/customizer.php:1306
+msgid "Sidebar"
+msgstr ""
+
+#: config/sidebars.php:27
+msgid "Shop Sidebar"
+msgstr ""
+
+#: config/term-meta.php:35
+msgid "Archive Page Layout Settings"
+msgstr ""
+
+#: config/term-meta.php:36
+msgid ""
+"You can override the global settings for a archive page. If you select "
+"inherit option, global setting will be applied."
+msgstr ""
+
+#: config/term-meta.php:48
+msgid "Layout Settings"
+msgstr ""
+
+#: config/term-meta.php:54
+msgid "Post Meta Settings"
+msgstr ""
+
+#: config/term-meta.php:60 inc/customizer.php:1311
+msgid "Sidebar Position"
+msgstr ""
+
+#: config/term-meta.php:65 inc/customizer.php:1318 inc/customizer.php:1330
+#: inc/customizer.php:1342
+msgid "No sidebars"
+msgstr ""
+
+#: config/term-meta.php:74 elementor-addons/blog-addon.php:46
+#: inc/customizer.php:1445 inc/customizer.php:1771
+msgid "Layout"
+msgstr ""
+
+#: config/term-meta.php:82 elementor-addons/blog-addon.php:56
+#: inc/customizer.php:1453
+msgid "Columns"
+msgstr ""
+
+#: config/term-meta.php:83
+msgid "This setting is used for grid and masonry layouts."
+msgstr ""
+
+#: config/term-meta.php:85 elementor-addons/blog-addon.php:60
+#: inc/customizer.php:1458 inc/customizer.php:1776
+msgid "2 columns"
+msgstr ""
+
+#: config/term-meta.php:86 elementor-addons/blog-addon.php:61
+#: inc/customizer.php:1459 inc/customizer.php:1777
+msgid "3 columns"
+msgstr ""
+
+#: config/term-meta.php:87 elementor-addons/blog-addon.php:62
+#: inc/customizer.php:1460
+msgid "4 columns"
+msgstr ""
+
+#: config/term-meta.php:98 elementor-addons/blog-addon.php:73
+msgid "Posts Number"
+msgstr ""
+
+#: config/term-meta.php:104 elementor-addons/blog-addon.php:85
+#: inc/customizer.php:1466
+msgid "Pagination Type"
+msgstr ""
+
+#: config/term-meta.php:106 elementor-addons/blog-addon.php:89
+#: inc/customizer.php:1471 inc/extensions/amp.php:140
+msgid "Default"
+msgstr ""
+
+#: config/term-meta.php:107 elementor-addons/blog-addon.php:90
+#: inc/classes/class-blog-ajax-handlers.php:46 inc/customizer.php:1472
+msgid "Load More"
+msgstr ""
+
+#: config/term-meta.php:115 elementor-addons/blog-addon.php:110
+#: inc/customizer.php:1509
+msgid "Post content"
+msgstr ""
+
+#: config/term-meta.php:117 elementor-addons/blog-addon.php:114
+#: inc/customizer.php:1514
+msgid "Only excerpt"
+msgstr ""
+
+#: config/term-meta.php:118 elementor-addons/blog-addon.php:115
+#: inc/customizer.php:1515
+msgid "Full content"
+msgstr ""
+
+#: config/term-meta.php:119 elementor-addons/blog-addon.php:116
+#: inc/customizer.php:1516 inc/customizer.php:1796
+msgid "Hide"
+msgstr ""
+
+#: config/term-meta.php:127 elementor-addons/blog-addon.php:139
+#: inc/customizer.php:1534
+msgid "Show Read More button"
+msgstr ""
+
+#: config/theme-core.php:10
+msgid "Techguide Theme"
+msgstr ""
+
+#: elementor-addons/blog-addon.php:23 inc/customizer.php:1439
+msgid "Blog"
+msgstr ""
+
+#: elementor-addons/blog-addon.php:39
+msgid "General"
+msgstr ""
+
+#: elementor-addons/blog-addon.php:91 inc/plugins-hooks/elementor.php:335
+msgid "None"
+msgstr ""
+
+#: elementor-addons/blog-addon.php:99
+msgid "Featured Image Size"
+msgstr ""
+
+#: elementor-addons/blog-addon.php:124 inc/customizer.php:1521
+msgid "Number of words in the excerpt"
+msgstr ""
+
+#: elementor-addons/blog-addon.php:149 inc/customizer.php:1541
+msgid "Read More button text"
+msgstr ""
+
+#: elementor-addons/blog-addon.php:151 inc/customizer.php:1543
+#: skins/famelle/template-parts/content-search.php:31
+#: template-parts/content-search.php:31
+msgid "Read more"
+msgstr ""
+
+#: elementor-addons/blog-addon.php:163
+msgid "Meta Settings"
+msgstr ""
+
+#: elementor-addons/blog-addon.php:274 inc/customizer.php:93
+msgid "Full"
+msgstr ""
+
+#: elementor-addons/blog-addon.php:488
+msgid "Posts not found"
+msgstr ""
+
+#: functions.php:441
+msgid "Category color"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: inc/classes/class-blog-ajax-handlers.php:47
+msgid "Loading..."
+msgstr ""
+
+#: inc/classes/class-blog-ajax-handlers.php:48
+msgid "No More Posts"
+msgstr ""
+
+#: inc/classes/class-skins-setup.php:155
+msgid "Current Skin"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:386
+#: inc/classes/class-tgm-plugin-activation.php:827
+#: inc/classes/class-tgm-plugin-activation.php:2533
+#: inc/classes/class-tgm-plugin-activation.php:3584
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:387
+#: inc/classes/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:388
+#: inc/classes/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:934
+#: inc/classes/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1121
+#: inc/classes/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2548
+#: skins/famelle/template-parts/post/post-meta/meta-sources.php:14
+#: skins/investory/template-parts/post/post-meta/meta-sources.php:14
+#: template-parts/post/post-meta/meta-sources.php:14
+msgid "Source"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3524
+msgid "Show Details"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3524
+msgid "Hide Details"
+msgstr ""
+
+#: inc/customizer.php:28
+msgid "Show tagline after logo"
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "Show ToTop button"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "General Site settings"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Logo &amp; Favicon"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Enable Breadcrumbs"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Enable Breadcrumbs on front page"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Enable page title in breadcrumbs area"
+msgstr ""
+
+#: inc/customizer.php:88
+msgid "Show full/minified path"
+msgstr ""
+
+#: inc/customizer.php:94
+msgid "Minified"
+msgstr ""
+
+#: inc/customizer.php:101
+msgid "Page Layout"
+msgstr ""
+
+#: inc/customizer.php:119
+msgid "Page width (px)"
+msgstr ""
+
+#: inc/customizer.php:132
+msgid "Page Inner Background"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Container width (px)"
+msgstr ""
+
+#: inc/customizer.php:152
+msgid "Sidebar width"
+msgstr ""
+
+#: inc/customizer.php:166
+msgid "Page Preloader"
+msgstr ""
+
+#: inc/customizer.php:172
+msgid "Show page preloader"
+msgstr ""
+
+#: inc/customizer.php:180
+msgid "Preloader Cover Background Color"
+msgstr ""
+
+#: inc/customizer.php:188
+msgid "Preloader Image Upload"
+msgstr ""
+
+#: inc/customizer.php:196
+msgid "Preloader Retina Image Upload"
+msgstr ""
+
+#: inc/customizer.php:206
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:207
+msgid "Configure Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:214
+msgid "Regular scheme"
+msgstr ""
+
+#: inc/customizer.php:220
+msgid "Accent color (1)"
+msgstr ""
+
+#: inc/customizer.php:227
+msgid "Accent color (2)"
+msgstr ""
+
+#: inc/customizer.php:234
+msgid "Text color"
+msgstr ""
+
+#: inc/customizer.php:241
+msgid "Link color"
+msgstr ""
+
+#: inc/customizer.php:248
+msgid "Link hover color"
+msgstr ""
+
+#: inc/customizer.php:255
+msgid "H1 color"
+msgstr ""
+
+#: inc/customizer.php:262
+msgid "H2 color"
+msgstr ""
+
+#: inc/customizer.php:269
+msgid "H3 color"
+msgstr ""
+
+#: inc/customizer.php:276
+msgid "H4 color"
+msgstr ""
+
+#: inc/customizer.php:283
+msgid "H5 color"
+msgstr ""
+
+#: inc/customizer.php:290
+msgid "H6 color"
+msgstr ""
+
+#: inc/customizer.php:299
+msgid "Additional colors"
+msgstr ""
+
+#: inc/customizer.php:305
+msgid "Light color"
+msgstr ""
+
+#: inc/customizer.php:312
+msgid "Grey color (1)"
+msgstr ""
+
+#: inc/customizer.php:319
+msgid "Dark color"
+msgstr ""
+
+#: inc/customizer.php:328
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer.php:329
+msgid "Configure typography settings"
+msgstr ""
+
+#: inc/customizer.php:336
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:342 inc/customizer.php:426 inc/customizer.php:536
+#: inc/customizer.php:628 inc/customizer.php:720 inc/customizer.php:812
+#: inc/customizer.php:904 inc/customizer.php:996 inc/customizer.php:1089
+#: inc/customizer.php:1140
+msgid "Font Family"
+msgstr ""
+
+#: inc/customizer.php:349 inc/customizer.php:433 inc/customizer.php:543
+#: inc/customizer.php:635 inc/customizer.php:727 inc/customizer.php:819
+#: inc/customizer.php:911 inc/customizer.php:1003 inc/customizer.php:1096
+#: inc/customizer.php:1147
+msgid "Font Style"
+msgstr ""
+
+#: inc/customizer.php:357 inc/customizer.php:450 inc/customizer.php:551
+#: inc/customizer.php:643 inc/customizer.php:735 inc/customizer.php:827
+#: inc/customizer.php:919 inc/customizer.php:1011 inc/customizer.php:1104
+#: inc/customizer.php:1155
+msgid "Font Weight"
+msgstr ""
+
+#: inc/customizer.php:365 inc/customizer.php:467 inc/customizer.php:559
+#: inc/customizer.php:651 inc/customizer.php:743 inc/customizer.php:835
+#: inc/customizer.php:927 inc/customizer.php:1019 inc/customizer.php:1163
+msgid "Font Size, px"
+msgstr ""
+
+#: inc/customizer.php:377 inc/customizer.php:479 inc/customizer.php:571
+#: inc/customizer.php:663 inc/customizer.php:755 inc/customizer.php:847
+#: inc/customizer.php:939 inc/customizer.php:1031 inc/customizer.php:1175
+msgid "Line Height"
+msgstr ""
+
+#: inc/customizer.php:378 inc/customizer.php:480 inc/customizer.php:572
+#: inc/customizer.php:664 inc/customizer.php:756 inc/customizer.php:848
+#: inc/customizer.php:940 inc/customizer.php:1032 inc/customizer.php:1176
+msgid "Relative to the font-size of the element"
+msgstr ""
+
+#: inc/customizer.php:390 inc/customizer.php:492 inc/customizer.php:584
+#: inc/customizer.php:676 inc/customizer.php:768 inc/customizer.php:860
+#: inc/customizer.php:952 inc/customizer.php:1044 inc/customizer.php:1112
+#: inc/customizer.php:1188
+msgid "Letter Spacing, em"
+msgstr ""
+
+#: inc/customizer.php:402 inc/customizer.php:504 inc/customizer.php:596
+#: inc/customizer.php:688 inc/customizer.php:780 inc/customizer.php:872
+#: inc/customizer.php:964 inc/customizer.php:1056 inc/customizer.php:1124
+#: inc/customizer.php:1200
+msgid "Character Set"
+msgstr ""
+
+#: inc/customizer.php:410 inc/customizer.php:520 inc/customizer.php:612
+#: inc/customizer.php:704 inc/customizer.php:796 inc/customizer.php:888
+#: inc/customizer.php:980 inc/customizer.php:1072 inc/customizer.php:1208
+msgid "Text Transform"
+msgstr ""
+
+#: inc/customizer.php:420
+msgid "Body text"
+msgstr ""
+
+#: inc/customizer.php:441
+msgid "Additional Font Style"
+msgstr ""
+
+#: inc/customizer.php:458
+msgid "Additional Font Weight"
+msgstr ""
+
+#: inc/customizer.php:512 inc/customizer.php:604 inc/customizer.php:696
+#: inc/customizer.php:788 inc/customizer.php:880 inc/customizer.php:972
+#: inc/customizer.php:1064
+msgid "Text Align"
+msgstr ""
+
+#: inc/customizer.php:530
+msgid "H1 Heading"
+msgstr ""
+
+#: inc/customizer.php:622
+msgid "H2 Heading"
+msgstr ""
+
+#: inc/customizer.php:714
+msgid "H3 Heading"
+msgstr ""
+
+#: inc/customizer.php:806
+msgid "H4 Heading"
+msgstr ""
+
+#: inc/customizer.php:898
+msgid "H5 Heading"
+msgstr ""
+
+#: inc/customizer.php:990
+msgid "H6 Heading"
+msgstr ""
+
+#: inc/customizer.php:1082
+msgid "Custom Font Style"
+msgstr ""
+
+#: inc/customizer.php:1083
+msgid "Used in typography of buttons, categories, etc."
+msgstr ""
+
+#: inc/customizer.php:1218
+msgid "Misc"
+msgstr ""
+
+#: inc/customizer.php:1224
+msgid "Enable Word Wrap"
+msgstr ""
+
+#: inc/customizer.php:1233 inc/customizer.php:1362
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:1240
+msgid "Header Styles"
+msgstr ""
+
+#: inc/customizer.php:1246
+msgid "Background Transparent"
+msgstr ""
+
+#: inc/customizer.php:1253
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer.php:1261
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer.php:1268
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/customizer.php:1277
+msgid "Background Position"
+msgstr ""
+
+#: inc/customizer.php:1286
+msgid "Background Size"
+msgstr ""
+
+#: inc/customizer.php:1295
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/customizer.php:1323
+msgid "Sidebar Position on Blog Post"
+msgstr ""
+
+#: inc/customizer.php:1335
+msgid "Sidebar Position on Single Product"
+msgstr ""
+
+#: inc/customizer.php:1348
+msgid "Enable sticky sidebar"
+msgstr ""
+
+#: inc/customizer.php:1357
+msgid "Ads Management"
+msgstr ""
+
+#: inc/customizer.php:1370
+msgid "Posts Page Before Loop"
+msgstr ""
+
+#: inc/customizer.php:1378
+msgid "Post Before Content"
+msgstr ""
+
+#: inc/customizer.php:1386
+msgid "Post Before Comments"
+msgstr ""
+
+#: inc/customizer.php:1396
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:1403
+msgid "Footer Styles"
+msgstr ""
+
+#: inc/customizer.php:1409
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer.php:1416
+msgid "Footer Background color"
+msgstr ""
+
+#: inc/customizer.php:1423
+msgid "Footer color"
+msgstr ""
+
+#: inc/customizer.php:1432
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/customizer.php:1477
+msgid "Sticky label type"
+msgstr ""
+
+#: inc/customizer.php:1482
+msgid "Text Label"
+msgstr ""
+
+#: inc/customizer.php:1483
+msgid "Font Icon"
+msgstr ""
+
+#: inc/customizer.php:1484
+msgid "Text with Icon"
+msgstr ""
+
+#: inc/customizer.php:1489
+msgid "Icon for sticky post"
+msgstr ""
+
+#: inc/customizer.php:1499
+msgid "Featured Post Label"
+msgstr ""
+
+#: inc/customizer.php:1500
+msgid "Label for sticky post"
+msgstr ""
+
+#: inc/customizer.php:1502 inc/woocommerce-functions.php:89
+msgid "Featured"
+msgstr ""
+
+#: inc/customizer.php:1611
+msgid "Post"
+msgstr ""
+
+#: inc/customizer.php:1728
+msgid "Related posts block"
+msgstr ""
+
+#: inc/customizer.php:1742
+msgid "Related posts block title"
+msgstr ""
+
+#: inc/customizer.php:1744
+msgid "Other Posts"
+msgstr ""
+
+#: inc/customizer.php:1751
+msgid "Related posts query type"
+msgstr ""
+
+#: inc/customizer.php:1756
+msgid "Categories"
+msgstr ""
+
+#: inc/customizer.php:1757
+#: skins/famelle/template-parts/post/post-meta/meta-tags.php:19
+#: skins/fashion/template-parts/post/post-meta/meta-tags.php:20
+#: skins/investory/template-parts/post/post-meta/meta-tags.php:20
+#: skins/lifestyle/template-parts/post/post-meta/meta-tags.php:20
+#: skins/personal/template-parts/post/post-meta/meta-tags.php:20
+#: skins/tech/template-parts/post/post-meta/meta-tags.php:19
+#: template-parts/post/post-meta/meta-tags.php:20
+msgid "Tags"
+msgstr ""
+
+#: inc/customizer.php:1763
+msgid "Number of post"
+msgstr ""
+
+#: inc/customizer.php:1783
+msgid "Number of words in the title"
+msgstr ""
+
+#: inc/customizer.php:1791
+msgid "Display content"
+msgstr ""
+
+#: inc/customizer.php:1797
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer.php:1798
+msgid "Content"
+msgstr ""
+
+#: inc/customizer.php:1804
+msgid "Number of words in the content"
+msgstr ""
+
+#: inc/customizer.php:1820
+msgid "Show post publish date"
+msgstr ""
+
+#: inc/customizer.php:1828
+msgid "Show post comment count"
+msgstr ""
+
+#: inc/customizer.php:1838
+msgid "Onsale badge background"
+msgstr ""
+
+#: inc/customizer.php:1845
+msgid "Featured badge background"
+msgstr ""
+
+#: inc/customizer.php:1852
+msgid "New badge background"
+msgstr ""
+
+#: inc/customizer.php:2011
+msgid "Body Background Color"
+msgstr ""
+
+#: inc/customizer.php:2033
+msgid "Normal"
+msgstr ""
+
+#: inc/customizer.php:2034
+msgid "Italic"
+msgstr ""
+
+#: inc/customizer.php:2035
+msgid "Oblique"
+msgstr ""
+
+#: inc/customizer.php:2048
+msgid "Latin"
+msgstr ""
+
+#: inc/customizer.php:2049
+msgid "Greek"
+msgstr ""
+
+#: inc/customizer.php:2050
+msgid "Greek Extended"
+msgstr ""
+
+#: inc/customizer.php:2051
+msgid "Vietnamese"
+msgstr ""
+
+#: inc/customizer.php:2052
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: inc/customizer.php:2053
+msgid "Latin Extended"
+msgstr ""
+
+#: inc/customizer.php:2054
+msgid "Cyrillic"
+msgstr ""
+
+#: inc/customizer.php:2067 inc/plugins-hooks/elementor.php:433
+msgid "Center"
+msgstr ""
+
+#: inc/customizer.php:2068
+msgid "Justify"
+msgstr ""
+
+#: inc/customizer.php:2069 inc/plugins-hooks/elementor.php:429
+msgid "Left"
+msgstr ""
+
+#: inc/customizer.php:2070 inc/plugins-hooks/elementor.php:441
+msgid "Right"
+msgstr ""
+
+#: inc/customizer.php:2102
+msgid "None "
+msgstr ""
+
+#: inc/customizer.php:2103
+msgid "Uppercase "
+msgstr ""
+
+#: inc/customizer.php:2104
+msgid "Lowercase"
+msgstr ""
+
+#: inc/customizer.php:2105
+msgid "Capitalize"
+msgstr ""
+
+#: inc/customizer.php:2118
+msgid "Top Left"
+msgstr ""
+
+#: inc/customizer.php:2119
+msgid "Top Center"
+msgstr ""
+
+#: inc/customizer.php:2120
+msgid "Top Right"
+msgstr ""
+
+#: inc/customizer.php:2121
+msgid "Middle Left"
+msgstr ""
+
+#: inc/customizer.php:2122
+msgid "Middle Center"
+msgstr ""
+
+#: inc/customizer.php:2123
+msgid "Middle Right"
+msgstr ""
+
+#: inc/customizer.php:2124
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/customizer.php:2125
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/customizer.php:2126
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/customizer.php:2138
+msgid "Auto"
+msgstr ""
+
+#: inc/customizer.php:2139
+msgid "Cover"
+msgstr ""
+
+#: inc/customizer.php:2140
+msgid "Contain"
+msgstr ""
+
+#: inc/customizer.php:2152
+msgid "No Repeat"
+msgstr ""
+
+#: inc/customizer.php:2153
+msgid "Tile"
+msgstr ""
+
+#: inc/customizer.php:2154
+msgid "Tile Horizontally"
+msgstr ""
+
+#: inc/customizer.php:2155
+msgid "Tile Vertically"
+msgstr ""
+
+#: inc/customizer.php:2167
+msgid "Scroll"
+msgstr ""
+
+#: inc/customizer.php:2168
+msgid "Fixed"
+msgstr ""
+
+#: inc/customizer.php:2487
+msgid "Listing 1"
+msgstr ""
+
+#: inc/customizer.php:2488
+msgid "Listing 2"
+msgstr ""
+
+#: inc/customizer.php:2489
+msgid "Grid 1"
+msgstr ""
+
+#: inc/customizer.php:2490
+msgid "Grid 2"
+msgstr ""
+
+#: inc/customizer.php:2491
+msgid "Masonry"
+msgstr ""
+
+#: inc/customizer.php:2492
+msgid "Vertical Justify"
+msgstr ""
+
+#: inc/customizer.php:2493
+msgid "Timeline"
+msgstr ""
+
+#: inc/customizer.php:2504
+#, php-format
+msgid "&copy; Copyright %%year%%. All rights reserved."
+msgstr ""
+
+#: inc/extensions/amp.php:129
+msgid "AMP Logo"
+msgstr ""
+
+#: inc/extensions/amp.php:137 inc/extensions/amp.php:142
+msgid "Select logo"
+msgstr ""
+
+#: inc/extensions/amp.php:138
+msgid "Change logo"
+msgstr ""
+
+#: inc/extensions/amp.php:139
+msgid "Remove"
+msgstr ""
+
+#: inc/extensions/amp.php:141
+msgid "No logo selected"
+msgstr ""
+
+#: inc/extensions/amp.php:143
+msgid "Choose logo"
+msgstr ""
+
+#: inc/extensions/amp/templates/footer.php:17
+msgid "Back to top"
+msgstr ""
+
+#: inc/hooks.php:204
+msgid "Send"
+msgstr ""
+
+#: inc/hooks.php:206
+msgid "Name"
+msgstr ""
+
+#: inc/hooks.php:208
+msgid "E-mail"
+msgstr ""
+
+#: inc/hooks.php:210
+msgid "Website"
+msgstr ""
+
+#: inc/hooks.php:212
+msgid "Comment"
+msgstr ""
+
+#: inc/hooks.php:218
+msgid "Send a Comment"
+msgstr ""
+
+#: inc/hooks.php:604
+msgid "Login With "
+msgstr ""
+
+#: inc/plugins-hooks/cherry-socialize.php:21
+msgid "Social Sharing Buttons"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-socialize.php:28
+msgid "Visibility on Posts Listing"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-socialize.php:41
+msgid "Visibility on Single Post"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-trending-posts.php:48
+#: skins/fashion/functions.php:38 skins/personal/functions.php:44
+msgid "View"
+msgid_plural "Views"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins-hooks/cherry-trending-posts.php:65
+#, php-format
+msgid "%1$s %3$s (%2$s)"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-trending-posts.php:95 inc/template-comment.php:99
+#: inc/template-related-posts.php:213
+#: skins/cryprate/template-parts/post/post-meta/meta-date.php:17
+#: skins/famelle/template-parts/post/post-meta/meta-date.php:17
+#: skins/fashion/template-parts/post/post-meta/meta-date.php:17
+#: skins/investory/template-parts/post/post-meta/meta-date.php:17
+#: skins/lifestyle/template-parts/post/post-meta/meta-date.php:17
+#: skins/personal/template-parts/post/post-meta/meta-date.php:17
+#: skins/photto/template-parts/post/post-meta/meta-date.php:17
+#: skins/sport/template-parts/post/post-meta/meta-date.php:17
+#: skins/tech/template-parts/post/post-meta/meta-date.php:17
+#: template-parts/post/post-meta/meta-date.php:17
+msgid " ago"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:139 inc/plugins-hooks/elementor.php:153
+msgid "Material Arrow"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:188 inc/plugins-hooks/elementor.php:231
+msgid "Meta Icon Color"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:300 inc/plugins-hooks/elementor.php:387
+msgid "Inner Content Options"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:309 inc/plugins-hooks/elementor.php:396
+msgid "Background"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:320 inc/plugins-hooks/elementor.php:407
+msgid "Padding"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:332
+msgid "Border Type"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:336
+msgctxt "Border Control"
+msgid "Solid"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:337
+msgctxt "Border Control"
+msgid "Double"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:338
+msgctxt "Border Control"
+msgid "Dotted"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:339
+msgctxt "Border Control"
+msgid "Dashed"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:350
+msgid "Width"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:364
+msgid "Color"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:437
+msgid "Stretch"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:461
+msgid "Official Color"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:462
+msgid "Official Color 2"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:463
+msgid "Custom"
+msgstr ""
+
+#: inc/plugins-hooks/elementor.php:472
+msgid "Bottom Spacing"
+msgstr ""
+
+#: inc/register-plugins.php:29
+msgid "Jet Plugins Wizard"
+msgstr ""
+
+#: inc/register-style-switcher-presets.php:18
+msgid "Fashion Daily"
+msgstr ""
+
+#: inc/register-style-switcher-presets.php:25
+msgid "Slife"
+msgstr ""
+
+#: inc/register-style-switcher-presets.php:32
+msgid "Alice Burton"
+msgstr ""
+
+#: inc/register-style-switcher-presets.php:39
+msgid "Photto"
+msgstr ""
+
+#: inc/register-style-switcher-presets.php:46
+msgid "ChampionNews"
+msgstr ""
+
+#: inc/register-style-switcher-presets.php:53
+msgid "TechGuide"
+msgstr ""
+
+#: inc/register-style-switcher-presets.php:60
+msgid "Investory"
+msgstr ""
+
+#: inc/register-style-switcher-presets.php:67
+msgid "Famelle"
+msgstr ""
+
+#: inc/register-style-switcher-presets.php:74
+msgid "Cryprate"
+msgstr ""
+
+#: inc/template-comment.php:185
+msgid "Edit"
+msgstr ""
+
+#: inc/template-menu.php:21
+msgid "Set main menu"
+msgstr ""
+
+#: inc/template-meta.php:20
+msgid "The estimated reading time is "
+msgstr ""
+
+#: inc/template-meta.php:57
+msgctxt "reading time in second"
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-meta.php:66
+msgid "less than a minute"
+msgstr ""
+
+#: inc/template-meta.php:68
+msgctxt "reading time in minutes"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-related-posts.php:126
+msgid "No related posts."
+msgstr ""
+
+#: inc/template-related-posts.php:130
+msgid "No more post this author."
+msgstr ""
+
+#: inc/template-tags.php:227
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/template-tags.php:228
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/template-tags.php:229
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/template-tags.php:230
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:231
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/template-tags.php:232
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/template-tags.php:233
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:30
+msgid "Display an information about selected user."
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:32
+#: inc/widgets/about-author/class-about-author-widget.php:36
+msgid "About Author"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:37
+#: inc/widgets/elementor-template/class-elementor-template-widget.php:37
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:45
+msgid "Select user to show"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:53
+msgid "Author avatar size (set 0 to hide avatar, applied only for Gravatar)"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:60
+msgid "Select image"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:61
+msgid "Custom avatar image (override default user avatar)"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:67
+msgid "Avatar rounded"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:72
+msgid "Link (leave empty to hide)"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:76
+msgid "Read More"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:77
+msgid "Link label"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:96
+msgid "Select a user"
+msgstr ""
+
+#: inc/widgets/elementor-template/class-elementor-template-widget.php:29
+msgid "Elementor Template"
+msgstr ""
+
+#: inc/widgets/elementor-template/class-elementor-template-widget.php:30
+msgid "Display your Elementor Template."
+msgstr ""
+
+#: inc/widgets/elementor-template/class-elementor-template-widget.php:45
+#: inc/widgets/elementor-template/class-elementor-template-widget.php:47
+msgid "Select template"
+msgstr ""
+
+#: inc/widgets/elementor-template/class-elementor-template-widget.php:61
+msgid "-- Select template --"
+msgstr ""
+
+#: inc/woocommerce-functions.php:30
+msgid "products"
+msgstr ""
+
+#: inc/woocommerce-functions.php:62
+msgid "%D %H:%M:%S"
+msgstr ""
+
+#: inc/woocommerce-functions.php:74
+msgid "days"
+msgstr ""
+
+#: inc/woocommerce-functions.php:74
+msgid "Hrs"
+msgstr ""
+
+#: inc/woocommerce-functions.php:74
+msgid "Min"
+msgstr ""
+
+#: inc/woocommerce-functions.php:87
+msgid "New"
+msgstr ""
+
+#: inc/woocommerce-functions.php:505 woocommerce/single-product/meta.php:42
+#: woocommerce/single-product/meta.php:45
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce-template-tags.php:10
+msgid "View your shopping cart"
+msgstr ""
+
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:13 searchform.php:14 woocommerce/product-searchform.php:28
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:16 woocommerce/product-searchform.php:30
+msgid "Search"
+msgstr ""
+
+#: skins/cryprate/template-parts/post/post-meta/meta-author.php:57
+#: skins/famelle/template-parts/post/post-meta/meta-author.php:56
+#: skins/fashion/template-parts/post/post-meta/meta-author.php:57
+#: skins/investory/template-parts/post/post-meta/meta-author.php:57
+#: skins/lifestyle/template-parts/post/post-meta/meta-author.php:61
+#: skins/personal/template-parts/post/post-meta/meta-author.php:57
+#: skins/tech/template-parts/post/post-meta/meta-author.php:56
+#: template-parts/post/post-meta/meta-author.php:57
+msgid "By "
+msgstr ""
+
+#: skins/cryprate/template-parts/post/post-meta/meta-date.php:19
+#: skins/famelle/template-parts/post/post-meta/meta-date.php:19
+#: skins/fashion/template-parts/post/post-meta/meta-date.php:19
+#: skins/investory/template-parts/post/post-meta/meta-date.php:19
+#: skins/lifestyle/template-parts/post/post-meta/meta-date.php:19
+#: skins/personal/template-parts/post/post-meta/meta-date.php:19
+#: skins/photto/template-parts/post/post-meta/meta-date.php:19
+#: skins/sport/template-parts/post/post-meta/meta-date.php:19
+#: skins/tech/template-parts/post/post-meta/meta-date.php:19
+#: template-parts/post/post-meta/meta-date.php:19
+msgid "\\a\\t"
+msgstr ""
+
+#: skins/cryprate/template-parts/post/single/content-single-audio.php:42
+#: skins/cryprate/template-parts/post/single/content-single-gallery.php:43
+#: skins/cryprate/template-parts/post/single/content-single-image.php:41
+#: skins/cryprate/template-parts/post/single/content-single-link.php:40
+#: skins/cryprate/template-parts/post/single/content-single-quote.php:40
+#: skins/cryprate/template-parts/post/single/content-single-video.php:38
+#: skins/cryprate/template-parts/post/single/content-single.php:38
+#: skins/famelle/template-parts/page/content-page.php:26
+#: skins/famelle/template-parts/post/single/content-single-audio.php:49
+#: skins/famelle/template-parts/post/single/content-single-gallery.php:50
+#: skins/famelle/template-parts/post/single/content-single-image.php:48
+#: skins/famelle/template-parts/post/single/content-single-link.php:47
+#: skins/famelle/template-parts/post/single/content-single-quote.php:47
+#: skins/famelle/template-parts/post/single/content-single-video.php:45
+#: skins/famelle/template-parts/post/single/content-single.php:45
+#: skins/investory/template-parts/post/single/content-single-audio.php:42
+#: skins/investory/template-parts/post/single/content-single-gallery.php:43
+#: skins/investory/template-parts/post/single/content-single-image.php:41
+#: skins/investory/template-parts/post/single/content-single-link.php:40
+#: skins/investory/template-parts/post/single/content-single-quote.php:40
+#: skins/investory/template-parts/post/single/content-single-video.php:38
+#: skins/investory/template-parts/post/single/content-single.php:38
+#: skins/photto/template-parts/post/single-layout-10/content-single-audio.php:32
+#: skins/photto/template-parts/post/single-layout-10/content-single-link.php:30
+#: skins/photto/template-parts/post/single-layout-10/content-single-quote.php:30
+#: skins/photto/template-parts/post/single-layout-10/content-single.php:24
+#: skins/photto/template-parts/post/single-layout-2/content-single-audio.php:25
+#: skins/photto/template-parts/post/single-layout-2/content-single-link.php:23
+#: skins/photto/template-parts/post/single-layout-2/content-single-quote.php:23
+#: skins/photto/template-parts/post/single-layout-2/content-single.php:17
+#: skins/photto/template-parts/post/single-layout-3/content-single-audio.php:25
+#: skins/photto/template-parts/post/single-layout-3/content-single-link.php:23
+#: skins/photto/template-parts/post/single-layout-3/content-single-quote.php:23
+#: skins/photto/template-parts/post/single-layout-3/content-single.php:17
+#: skins/photto/template-parts/post/single-layout-4/content-single-audio.php:25
+#: skins/photto/template-parts/post/single-layout-4/content-single-gallery.php:26
+#: skins/photto/template-parts/post/single-layout-4/content-single-link.php:23
+#: skins/photto/template-parts/post/single-layout-4/content-single-quote.php:23
+#: skins/photto/template-parts/post/single-layout-4/content-single-video.php:21
+#: skins/photto/template-parts/post/single-layout-4/content-single.php:17
+#: skins/photto/template-parts/post/single-layout-5/content-single-audio.php:25
+#: skins/photto/template-parts/post/single-layout-5/content-single-gallery.php:26
+#: skins/photto/template-parts/post/single-layout-5/content-single-link.php:23
+#: skins/photto/template-parts/post/single-layout-5/content-single-quote.php:23
+#: skins/photto/template-parts/post/single-layout-5/content-single-video.php:21
+#: skins/photto/template-parts/post/single-layout-5/content-single.php:17
+#: skins/photto/template-parts/post/single-layout-6/content-single-audio.php:25
+#: skins/photto/template-parts/post/single-layout-6/content-single-gallery.php:26
+#: skins/photto/template-parts/post/single-layout-6/content-single-link.php:23
+#: skins/photto/template-parts/post/single-layout-6/content-single-quote.php:23
+#: skins/photto/template-parts/post/single-layout-6/content-single-video.php:21
+#: skins/photto/template-parts/post/single-layout-6/content-single.php:17
+#: skins/photto/template-parts/post/single-layout-7/content-single.php:17
+#: skins/photto/template-parts/post/single-layout-8/content-single-audio.php:25
+#: skins/photto/template-parts/post/single-layout-8/content-single-gallery.php:26
+#: skins/photto/template-parts/post/single-layout-8/content-single-link.php:23
+#: skins/photto/template-parts/post/single-layout-8/content-single-quote.php:23
+#: skins/photto/template-parts/post/single-layout-8/content-single-video.php:21
+#: skins/photto/template-parts/post/single-layout-8/content-single.php:17
+#: skins/photto/template-parts/post/single-layout-9/content-single-audio.php:25
+#: skins/photto/template-parts/post/single-layout-9/content-single-gallery.php:26
+#: skins/photto/template-parts/post/single-layout-9/content-single-link.php:23
+#: skins/photto/template-parts/post/single-layout-9/content-single-quote.php:23
+#: skins/photto/template-parts/post/single-layout-9/content-single-video.php:21
+#: skins/photto/template-parts/post/single-layout-9/content-single.php:17
+#: skins/photto/template-parts/post/single/content-single-audio.php:42
+#: skins/photto/template-parts/post/single/content-single-gallery.php:43
+#: skins/photto/template-parts/post/single/content-single-image.php:41
+#: skins/photto/template-parts/post/single/content-single-link.php:40
+#: skins/photto/template-parts/post/single/content-single-quote.php:40
+#: skins/photto/template-parts/post/single/content-single-video.php:38
+#: skins/photto/template-parts/post/single/content-single.php:38
+#: template-parts/page/content-page.php:26
+#: template-parts/post/single-layout-10/content-single-audio.php:32
+#: template-parts/post/single-layout-10/content-single-link.php:30
+#: template-parts/post/single-layout-10/content-single-quote.php:30
+#: template-parts/post/single-layout-10/content-single.php:24
+#: template-parts/post/single-layout-2/content-single-audio.php:25
+#: template-parts/post/single-layout-2/content-single-link.php:23
+#: template-parts/post/single-layout-2/content-single-quote.php:23
+#: template-parts/post/single-layout-2/content-single.php:17
+#: template-parts/post/single-layout-3/content-single-audio.php:25
+#: template-parts/post/single-layout-3/content-single-link.php:23
+#: template-parts/post/single-layout-3/content-single-quote.php:23
+#: template-parts/post/single-layout-3/content-single.php:17
+#: template-parts/post/single-layout-4/content-single-audio.php:25
+#: template-parts/post/single-layout-4/content-single-gallery.php:26
+#: template-parts/post/single-layout-4/content-single-link.php:23
+#: template-parts/post/single-layout-4/content-single-quote.php:23
+#: template-parts/post/single-layout-4/content-single-video.php:21
+#: template-parts/post/single-layout-4/content-single.php:17
+#: template-parts/post/single-layout-5/content-single-audio.php:25
+#: template-parts/post/single-layout-5/content-single-gallery.php:26
+#: template-parts/post/single-layout-5/content-single-link.php:23
+#: template-parts/post/single-layout-5/content-single-quote.php:23
+#: template-parts/post/single-layout-5/content-single-video.php:21
+#: template-parts/post/single-layout-5/content-single.php:17
+#: template-parts/post/single-layout-6/content-single-audio.php:25
+#: template-parts/post/single-layout-6/content-single-gallery.php:26
+#: template-parts/post/single-layout-6/content-single-link.php:23
+#: template-parts/post/single-layout-6/content-single-quote.php:23
+#: template-parts/post/single-layout-6/content-single-video.php:21
+#: template-parts/post/single-layout-6/content-single.php:17
+#: template-parts/post/single-layout-7/content-single.php:17
+#: template-parts/post/single-layout-8/content-single-audio.php:25
+#: template-parts/post/single-layout-8/content-single-gallery.php:26
+#: template-parts/post/single-layout-8/content-single-link.php:23
+#: template-parts/post/single-layout-8/content-single-quote.php:23
+#: template-parts/post/single-layout-8/content-single-video.php:21
+#: template-parts/post/single-layout-8/content-single.php:17
+#: template-parts/post/single-layout-9/content-single-audio.php:25
+#: template-parts/post/single-layout-9/content-single-gallery.php:26
+#: template-parts/post/single-layout-9/content-single-link.php:23
+#: template-parts/post/single-layout-9/content-single-quote.php:23
+#: template-parts/post/single-layout-9/content-single-video.php:21
+#: template-parts/post/single-layout-9/content-single.php:17
+#: template-parts/post/single/content-single-audio.php:42
+#: template-parts/post/single/content-single-gallery.php:43
+#: template-parts/post/single/content-single-image.php:41
+#: template-parts/post/single/content-single-link.php:40
+#: template-parts/post/single/content-single-quote.php:40
+#: template-parts/post/single/content-single-video.php:38
+#: template-parts/post/single/content-single.php:38
+msgid "Pages:"
+msgstr ""
+
+#: skins/cryprate/template-parts/post/single/content-single-audio.php:46
+#: skins/cryprate/template-parts/post/single/content-single-gallery.php:47
+#: skins/cryprate/template-parts/post/single/content-single-image.php:45
+#: skins/cryprate/template-parts/post/single/content-single-link.php:44
+#: skins/cryprate/template-parts/post/single/content-single-quote.php:44
+#: skins/cryprate/template-parts/post/single/content-single-video.php:42
+#: skins/cryprate/template-parts/post/single/content-single.php:42
+#: skins/famelle/template-parts/page/content-page.php:30
+#: skins/famelle/template-parts/post/single/content-single-audio.php:53
+#: skins/famelle/template-parts/post/single/content-single-gallery.php:54
+#: skins/famelle/template-parts/post/single/content-single-image.php:52
+#: skins/famelle/template-parts/post/single/content-single-link.php:51
+#: skins/famelle/template-parts/post/single/content-single-quote.php:51
+#: skins/famelle/template-parts/post/single/content-single-video.php:49
+#: skins/famelle/template-parts/post/single/content-single.php:49
+#: skins/investory/template-parts/post/single/content-single-audio.php:46
+#: skins/investory/template-parts/post/single/content-single-gallery.php:47
+#: skins/investory/template-parts/post/single/content-single-image.php:45
+#: skins/investory/template-parts/post/single/content-single-link.php:44
+#: skins/investory/template-parts/post/single/content-single-quote.php:44
+#: skins/investory/template-parts/post/single/content-single-video.php:42
+#: skins/investory/template-parts/post/single/content-single.php:42
+#: skins/photto/template-parts/post/single-layout-10/content-single-audio.php:36
+#: skins/photto/template-parts/post/single-layout-10/content-single-link.php:34
+#: skins/photto/template-parts/post/single-layout-10/content-single-quote.php:34
+#: skins/photto/template-parts/post/single-layout-10/content-single.php:28
+#: skins/photto/template-parts/post/single-layout-2/content-single-audio.php:29
+#: skins/photto/template-parts/post/single-layout-2/content-single-link.php:27
+#: skins/photto/template-parts/post/single-layout-2/content-single-quote.php:27
+#: skins/photto/template-parts/post/single-layout-2/content-single.php:21
+#: skins/photto/template-parts/post/single-layout-3/content-single-audio.php:29
+#: skins/photto/template-parts/post/single-layout-3/content-single-link.php:27
+#: skins/photto/template-parts/post/single-layout-3/content-single-quote.php:27
+#: skins/photto/template-parts/post/single-layout-3/content-single.php:21
+#: skins/photto/template-parts/post/single-layout-4/content-single-audio.php:29
+#: skins/photto/template-parts/post/single-layout-4/content-single-gallery.php:30
+#: skins/photto/template-parts/post/single-layout-4/content-single-link.php:27
+#: skins/photto/template-parts/post/single-layout-4/content-single-quote.php:27
+#: skins/photto/template-parts/post/single-layout-4/content-single-video.php:25
+#: skins/photto/template-parts/post/single-layout-4/content-single.php:21
+#: skins/photto/template-parts/post/single-layout-5/content-single-audio.php:29
+#: skins/photto/template-parts/post/single-layout-5/content-single-gallery.php:30
+#: skins/photto/template-parts/post/single-layout-5/content-single-link.php:27
+#: skins/photto/template-parts/post/single-layout-5/content-single-quote.php:27
+#: skins/photto/template-parts/post/single-layout-5/content-single-video.php:25
+#: skins/photto/template-parts/post/single-layout-5/content-single.php:21
+#: skins/photto/template-parts/post/single-layout-6/content-single-audio.php:29
+#: skins/photto/template-parts/post/single-layout-6/content-single-gallery.php:30
+#: skins/photto/template-parts/post/single-layout-6/content-single-link.php:27
+#: skins/photto/template-parts/post/single-layout-6/content-single-quote.php:27
+#: skins/photto/template-parts/post/single-layout-6/content-single-video.php:25
+#: skins/photto/template-parts/post/single-layout-6/content-single.php:21
+#: skins/photto/template-parts/post/single-layout-7/content-single.php:21
+#: skins/photto/template-parts/post/single-layout-8/content-single-audio.php:29
+#: skins/photto/template-parts/post/single-layout-8/content-single-gallery.php:30
+#: skins/photto/template-parts/post/single-layout-8/content-single-link.php:27
+#: skins/photto/template-parts/post/single-layout-8/content-single-quote.php:27
+#: skins/photto/template-parts/post/single-layout-8/content-single-video.php:25
+#: skins/photto/template-parts/post/single-layout-8/content-single.php:21
+#: skins/photto/template-parts/post/single-layout-9/content-single-audio.php:29
+#: skins/photto/template-parts/post/single-layout-9/content-single-gallery.php:30
+#: skins/photto/template-parts/post/single-layout-9/content-single-link.php:27
+#: skins/photto/template-parts/post/single-layout-9/content-single-quote.php:27
+#: skins/photto/template-parts/post/single-layout-9/content-single-video.php:25
+#: skins/photto/template-parts/post/single-layout-9/content-single.php:21
+#: skins/photto/template-parts/post/single/content-single-audio.php:46
+#: skins/photto/template-parts/post/single/content-single-gallery.php:47
+#: skins/photto/template-parts/post/single/content-single-image.php:45
+#: skins/photto/template-parts/post/single/content-single-link.php:44
+#: skins/photto/template-parts/post/single/content-single-quote.php:44
+#: skins/photto/template-parts/post/single/content-single-video.php:42
+#: skins/photto/template-parts/post/single/content-single.php:42
+#: template-parts/page/content-page.php:30
+#: template-parts/post/single-layout-10/content-single-audio.php:36
+#: template-parts/post/single-layout-10/content-single-link.php:34
+#: template-parts/post/single-layout-10/content-single-quote.php:34
+#: template-parts/post/single-layout-10/content-single.php:28
+#: template-parts/post/single-layout-2/content-single-audio.php:29
+#: template-parts/post/single-layout-2/content-single-link.php:27
+#: template-parts/post/single-layout-2/content-single-quote.php:27
+#: template-parts/post/single-layout-2/content-single.php:21
+#: template-parts/post/single-layout-3/content-single-audio.php:29
+#: template-parts/post/single-layout-3/content-single-link.php:27
+#: template-parts/post/single-layout-3/content-single-quote.php:27
+#: template-parts/post/single-layout-3/content-single.php:21
+#: template-parts/post/single-layout-4/content-single-audio.php:29
+#: template-parts/post/single-layout-4/content-single-gallery.php:30
+#: template-parts/post/single-layout-4/content-single-link.php:27
+#: template-parts/post/single-layout-4/content-single-quote.php:27
+#: template-parts/post/single-layout-4/content-single-video.php:25
+#: template-parts/post/single-layout-4/content-single.php:21
+#: template-parts/post/single-layout-5/content-single-audio.php:29
+#: template-parts/post/single-layout-5/content-single-gallery.php:30
+#: template-parts/post/single-layout-5/content-single-link.php:27
+#: template-parts/post/single-layout-5/content-single-quote.php:27
+#: template-parts/post/single-layout-5/content-single-video.php:25
+#: template-parts/post/single-layout-5/content-single.php:21
+#: template-parts/post/single-layout-6/content-single-audio.php:29
+#: template-parts/post/single-layout-6/content-single-gallery.php:30
+#: template-parts/post/single-layout-6/content-single-link.php:27
+#: template-parts/post/single-layout-6/content-single-quote.php:27
+#: template-parts/post/single-layout-6/content-single-video.php:25
+#: template-parts/post/single-layout-6/content-single.php:21
+#: template-parts/post/single-layout-7/content-single.php:21
+#: template-parts/post/single-layout-8/content-single-audio.php:29
+#: template-parts/post/single-layout-8/content-single-gallery.php:30
+#: template-parts/post/single-layout-8/content-single-link.php:27
+#: template-parts/post/single-layout-8/content-single-quote.php:27
+#: template-parts/post/single-layout-8/content-single-video.php:25
+#: template-parts/post/single-layout-8/content-single.php:21
+#: template-parts/post/single-layout-9/content-single-audio.php:29
+#: template-parts/post/single-layout-9/content-single-gallery.php:30
+#: template-parts/post/single-layout-9/content-single-link.php:27
+#: template-parts/post/single-layout-9/content-single-quote.php:27
+#: template-parts/post/single-layout-9/content-single-video.php:25
+#: template-parts/post/single-layout-9/content-single.php:21
+#: template-parts/post/single/content-single-audio.php:46
+#: template-parts/post/single/content-single-gallery.php:47
+#: template-parts/post/single/content-single-image.php:45
+#: template-parts/post/single/content-single-link.php:44
+#: template-parts/post/single/content-single-quote.php:44
+#: template-parts/post/single/content-single-video.php:42
+#: template-parts/post/single/content-single.php:42
+msgid "Page"
+msgstr ""
+
+#: skins/famelle/template-parts/comment.php:25 template-parts/comment.php:25
+msgid "Reply"
+msgstr ""
+
+#: skins/famelle/template-parts/content-404.php:12
+#: template-parts/content-404.php:12
+msgid "404"
+msgstr ""
+
+#: skins/famelle/template-parts/content-404.php:13
+#: template-parts/content-404.php:13
+msgid "Page Not Found"
+msgstr ""
+
+#: skins/famelle/template-parts/content-404.php:17
+#: skins/famelle/template-parts/content-none.php:28
+#: template-parts/content-404.php:17 template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: skins/famelle/template-parts/content-author-bio.php:15
+#: template-parts/content-author-bio.php:15
+msgid "Author"
+msgstr ""
+
+#: skins/famelle/template-parts/content-none.php:12
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: skins/famelle/template-parts/content-none.php:18
+#: template-parts/content-none.php:18
+msgid "Get started here"
+msgstr ""
+
+#: skins/famelle/template-parts/content-none.php:18
+#: template-parts/content-none.php:18
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: skins/famelle/template-parts/content-none.php:22
+#: template-parts/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: skins/famelle/template-parts/content-post-navigation.php:13
+#: template-parts/content-post-navigation.php:13
+msgid "Previous article"
+msgstr ""
+
+#: skins/famelle/template-parts/content-post-navigation.php:14
+#: template-parts/content-post-navigation.php:14
+msgid "Next article"
+msgstr ""
+
+#: skins/famelle/template-parts/page/content-page.php:41
+#: template-parts/page/content-page.php:41
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: skins/famelle/template-parts/post/post-components/post-respond-button.php:19
+#: skins/investory/template-parts/post/post-components/post-respond-button.php:19
+#: template-parts/post/post-components/post-respond-button.php:19
+msgid "Leave a comment"
+msgstr ""
+
+#: skins/famelle/template-parts/post/post-components/post-share-buttons.php:21
+#: skins/fashion/template-parts/post/post-components/post-share-buttons.php:21
+#: skins/investory/template-parts/post/post-components/post-share-buttons.php:21
+#: template-parts/post/post-components/post-share-buttons.php:21
+msgid "Share"
+msgstr ""
+
+#: skins/fashion/template-parts/post/post-meta/meta-comments.php:25
+#: skins/lifestyle/template-parts/post/post-meta/meta-comments.php:25
+#: skins/personal/template-parts/post/post-meta/meta-comments.php:25
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: skins/lifestyle/template-parts/post/post-meta/meta-author.php:44
+#: skins/personal/jet-elements/jet-posts/global/item-meta.php:23
+#: skins/personal/template-parts/post/post-meta/meta-author.php:37
+msgid "by "
+msgstr ""
+
+#: skins/personal/jet-elements/jet-posts/global/item-meta.php:34
+msgid " Comments"
+msgstr ""
+
+#: skins/photto/template-parts/post/post-meta/meta-comments.php:25
+#, php-format
+msgid "Comment: %s"
+msgid_plural "Comments: %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/related-posts/wrapper.php:16
+msgid "Related Articles"
+msgstr ""
+
+#: template-parts/related-posts/wrapper.php:19
+msgid "More from Author"
+msgstr ""
+
+#: woocommerce/header-cart.php:14
+msgid "My Cart"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:28
+msgctxt "placeholder"
+msgid "Search Products&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:33
+#, php-format
+msgid "%1$s review for %2$s%3$s%4$s"
+msgid_plural "%1$s reviews for %2$s%3$s%4$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:35
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:56
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:74
+msgid "Your Name*"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:76
+msgid "Your Email*"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:78
+msgid "Add Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "You must be "
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "logged in"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid " to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Rate it:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:107
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:43
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:35
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:35
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:41
+#: woocommerce/single-product/meta.php:44
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:27
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:28
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:33
+msgid " says:"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:36
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:27
+msgid "You may also like&hellip;"
+msgstr ""

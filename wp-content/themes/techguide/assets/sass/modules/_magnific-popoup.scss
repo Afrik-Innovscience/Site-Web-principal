@@ -1,0 +1,146 @@
+$arrow-line-deg: 45deg;
+
+.mfp-bg {
+	background: $color__white;
+	opacity: 1;
+
+	&.mfp-dark-bg {
+		background: $color__dark;
+		opacity: 0.8;
+	}
+}
+
+.mfp-zoom-out-cur {
+	cursor: auto;
+}
+
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+	cursor: pointer;
+}
+
+.mfp-content {
+	.wp-video {
+		@include center-block();
+	}
+}
+
+.mfp-inline-holder,
+.mfp-iframe-holder,
+.mfp-image-holder {
+
+	.mfp-figure {
+		&:after {
+			box-shadow: none;
+		}
+	}
+
+	.mfp-bottom-bar {
+		display: none;
+	}
+
+	.mfp-close,
+	.mfp-arrow,
+	.mfp-arrow:before,
+	.mfp-arrow:after {
+		opacity: 1;
+	}
+	.mfp-close {
+		font-size: 40px;
+		padding: 5px 15px;
+		right: 0;
+		position: fixed;
+		width: auto;
+		height: auto;
+		line-height: 1;
+		text-align: center;
+		color: $color__dark;
+
+		.mfp-dark-bg & {
+			color: $color__white;
+		}
+
+		.admin-bar & {
+			top: 35px;
+		}
+	}
+
+	.mfp-arrow {
+		&:before,
+		&:after {
+			/*rtl:begin:ignore*/
+			border: none;
+			width: 50px;
+			height: 1px;
+			margin: 0;
+			position: absolute;
+			top: 50%;
+			transition: .1s;
+			background-color: $color__dark;
+			/*rtl:end:ignore*/
+
+			.mfp-dark-bg & {
+				background-color: $color__white;
+			}
+		}
+		&-left {
+			&:before,
+			&:after {
+				/*rtl:begin:ignore*/
+				left: 20px;
+				transform-origin: 0 center;
+				/*rtl:end:ignore*/
+			}
+			&:before {
+				/*rtl:ignore*/
+				transform: rotate(-$arrow-line-deg);
+			}
+			&:after {
+				/*rtl:ignore*/
+				transform: rotate($arrow-line-deg);
+			}
+
+		}
+		&-right {
+			&:before,
+			&:after {
+				/*rtl:begin:ignore*/
+				right: 20px;
+				left: auto;
+				transform-origin: 100% center;
+				/*rtl:end:ignore*/
+			}
+
+			&:before {
+				/*rtl:ignore*/
+				transform: rotate($arrow-line-deg);
+			}
+			&:after {
+				/*rtl:ignore*/
+				transform: rotate(-$arrow-line-deg);
+			}
+		}
+
+	}
+}
+
+.mfp-fade.mfp-bg {
+	opacity: 0;
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
+}

@@ -1,0 +1,132 @@
+@import "variables";
+
+/*--------------------------------------------------------------
+## Card
+--------------------------------------------------------------*/
+.card {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+### Grid layout
+--------------------------------------------------------------*/
+@include media-breakpoint-up(md) {
+	.card-deck {
+		display: flex;
+		flex-flow: row wrap;
+		margin-right: -$card-grid-gutter / 2;
+		margin-left: -$card-grid-gutter / 2;
+
+		.card {
+			margin-right: $card-grid-gutter / 2;
+			margin-left: $card-grid-gutter / 2;
+
+			flex: 0 0;
+			flex-basis: calc(100% / 2 - #{$card-grid-gutter});
+			max-width: calc(100% / 2 - #{$card-grid-gutter});
+		}
+	}
+
+	// Grid-2
+	.posts-list--grid-2.card-deck {
+		$card-grid-gutter: 10px;
+
+		margin-right: -$card-grid-gutter / 2;
+		margin-left: -$card-grid-gutter / 2;
+
+		.card {
+			margin-right: $card-grid-gutter / 2;
+			margin-left: $card-grid-gutter / 2;
+
+			flex-basis: calc(100% / 2 - #{$card-grid-gutter});
+			max-width: calc(100% / 2 - #{$card-grid-gutter});
+		}
+	}
+}
+
+@include media-breakpoint-up(xl) {
+	.card-deck {
+		@for $i from 3 through 4 {
+			&--#{$i}-cols {
+				.card {
+					flex: 0 0;
+					flex-basis: calc(100% / #{$i} - #{$card-grid-gutter});
+					max-width: calc(100% / #{$i} - #{$card-grid-gutter});
+				}
+			}
+		}
+	}
+
+	// Grid-2
+	.posts-list--grid-2.card-deck {
+		$card-grid-gutter: 10px;
+
+		@for $i from 3 through 4 {
+			&--#{$i}-cols {
+				.card {
+					flex-basis: calc(100% / #{$i} - #{$card-grid-gutter});
+					max-width: calc(100% / #{$i} - #{$card-grid-gutter});
+				}
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+### Masonry layout
+--------------------------------------------------------------*/
+@include media-breakpoint-up(md) {
+	.card-columns {
+		column-gap: $card-grid-gutter;
+		column-count: 2;
+		.card {
+			display: inline-block;
+			width: 100%; // Don't let them exceed the column width
+		}
+	}
+}
+
+@include media-breakpoint-up(xl) {
+	@for $i from 3 through 4 {
+		.card-columns--#{$i}-cols {
+			column-count: #{$i};
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+### Vertical Justify layout
+--------------------------------------------------------------*/
+@include media-breakpoint-up(md) {
+	.posts-list--vertical-justify {
+		display: flex;
+		margin-right: -$card-grid-gutter / 2;
+		margin-left: -$card-grid-gutter / 2;
+		flex-flow: row wrap;
+		.card {
+			margin-right: $card-grid-gutter / 2;
+			margin-left: $card-grid-gutter / 2;
+
+			flex: 0 0;
+			flex-basis: calc(100% / 2 - #{$card-grid-gutter});
+			max-width: calc(100% / 2 - #{$card-grid-gutter});
+		}
+	}
+}
+
+@include media-breakpoint-up(xl) {
+	.posts-list--vertical-justify {
+		.card {
+			flex: 0 0;
+			flex-basis: calc(100% / 3 - #{$card-grid-gutter});
+			max-width: calc(100% / 3 - #{$card-grid-gutter});
+
+			&:nth-of-type(7n + 2),
+			&:nth-of-type(7n + 3) {
+				flex: 0 0;
+				flex-basis: calc(100% / 1.5 - #{$card-grid-gutter});
+				max-width: calc(100% / 1.5 - #{$card-grid-gutter});
+			}
+		}
+	}
+}

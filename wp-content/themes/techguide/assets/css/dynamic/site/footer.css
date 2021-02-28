@@ -1,0 +1,5 @@
+/* #Footer */
+.footer-container {
+	background-color: $footer_bg;
+	color: $footer_text_color;
+}

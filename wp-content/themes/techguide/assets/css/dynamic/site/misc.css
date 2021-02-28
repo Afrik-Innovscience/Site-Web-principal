@@ -1,0 +1,47 @@
+/* #Magnific Popup*/
+.mfp-iframe-holder .mfp-close:hover,
+.mfp-image-holder .mfp-close:hover{
+	color: $regular_accent_color_1;
+}
+
+.mfp-iframe-holder .mfp-arrow:hover:before,
+.mfp-iframe-holder .mfp-arrow:hover:after,
+.mfp-image-holder .mfp-arrow:hover:before,
+.mfp-image-holder .mfp-arrow:hover:after{
+	background-color: $regular_accent_color_1;
+}
+
+/* #Swiper navigation*/
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-container .swiper-button-next,
+.swiper-container .swiper-button-prev {
+	color: $light_color;
+	background-color: $regular_accent_color_1;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover,
+.swiper-container .swiper-button-next:hover,
+.swiper-container .swiper-button-prev:hover {
+	color: $light_color;
+	background-color: @darken($regular_accent_color_1,10);
+}
+
+.post-gallery .swiper-button-next,
+.post-gallery .swiper-button-prev {
+	color: $grey_color_1;
+	background-color: $light_color;
+}
+
+.post-gallery .swiper-button-next:hover,
+.post-gallery .swiper-button-prev:hover {
+	color: $light_color;
+	background-color: $regular_accent_color_1;
+}
+
+.post-gallery .swiper-pagination-bullets .swiper-pagination-bullet-active,
+.swiper-pagination-bullets .swiper-pagination-bullet-active,
+.swiper-pagination-bullets .swiper-pagination-bullet:hover {
+	background-color: $regular_accent_color_1;
+}

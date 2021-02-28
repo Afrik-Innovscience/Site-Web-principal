@@ -1,0 +1,12 @@
+.cherry-trend-views__count:before {
+	color: @darken( $grey_color_1, 6 );
+}
+
+.cherry-trend-post__thumbnail:before {
+	font-style: $custom_font_style;
+	font-weight: $custom_font_weight;
+	font-family: @font_family( $custom_font_family );
+	letter-spacing: $custom_letter_spacing{em};
+	background-color: $regular_accent_color_1;
+	color: $light_color;
+}

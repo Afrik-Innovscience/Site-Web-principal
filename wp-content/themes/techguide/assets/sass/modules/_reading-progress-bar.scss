@@ -1,0 +1,23 @@
+.reading-progress-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	width: 100%;
+	height: 3px;
+
+	.admin-bar & {
+		@media (min-width: 601px) {
+			top: 46px;
+		}
+
+		@media (min-width: 783px) {
+			top: 32px;
+		}
+	}
+
+	.progress-bar {
+		width: 0;
+		height: 100%;
+	}
+}

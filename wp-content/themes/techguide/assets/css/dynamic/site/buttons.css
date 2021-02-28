@@ -1,0 +1,42 @@
+/* #Button Appearance Styles */
+.btn,
+.btn-link,
+.post-password-form input[type="submit"],
+.wpcf7 button,
+.wpcf7 input[type="submit"],
+.wpcf7 input[type="reset"],
+.elementor-widget .elementor-button {
+	font-style: $custom_font_style;
+	font-weight: $custom_font_weight;
+	font-family: @font_family( $custom_font_family );
+	letter-spacing: $custom_letter_spacing{em};
+}
+
+.btn-primary,
+.post-password-form input[type="submit"],
+.wpcf7 button,
+.wpcf7 input[type="submit"],
+.elementor-widget .elementor-button {
+	color: $light_color;
+	background-color: $regular_accent_color_1;
+}
+
+.btn-primary:hover,
+.post-password-form input[type="submit"]:hover,
+.wpcf7 button:hover,
+.wpcf7 input[type="submit"]:hover,
+.elementor-widget .elementor-button:hover {
+	color: $light_color;
+	background-color: @darken($regular_accent_color_1, 10);
+}
+
+.btn-secondary,
+.wpcf7 input[type="reset"] {
+	color: $light_color;
+	background-color: $regular_accent_color_2;
+}
+.btn-secondary:hover,
+.wpcf7 input[type="reset"]:hover {
+	color: $light_color;
+	background-color: $regular_accent_color_1;
+}

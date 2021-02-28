@@ -1,0 +1,58 @@
+/* #Elements */
+blockquote {
+	border-left-color: $regular_accent_color_1;
+}
+
+blockquote.quote-bg {
+	background-color: $dark_color;
+	color: $light_color;
+}
+
+blockquote:before,
+blockquote.quote-bg cite {
+	color: $grey_color_1;
+}
+
+blockquote.quote-type-2:before {
+	color: $regular_accent_color_1;
+}
+
+cite {
+	font-weight: $body_font_weight;
+	color: @darken($grey_color_1, 19);
+}
+
+hr,
+.elementor hr{
+	background-color: $grey_color_1;
+}
+
+.wp-caption-text {
+	color: @darken($grey_color_1, 19);
+}
+
+/* #Media */
+.mejs-video .mejs-overlay:hover .mejs-overlay-button,
+.video-popup__trigger:hover .video-popup__play-icon {
+	color: $regular_accent_color_1;
+}
+
+/* #Page preloader */
+.page-preloader-cover{
+	background-color: $page_preloader_bg;
+}
+.page-preloader-cover .bar:before{
+	background-color: $regular_accent_color_1;
+}
+.page-preloader-cover .bar {
+	background-color: @lighten($grey_color_1, 2);
+}
+
+/* #ToTop button */
+#toTop {
+	color: $light_color;
+	background-color: $regular_accent_color_1;
+}
+#toTop:hover {
+	background-color: @darken($regular_accent_color_1,10);
+}

@@ -1,0 +1,628 @@
+/* #Elementor */
+
+/* ##Typography */
+.elementor-widget-heading h1.elementor-heading-title.elementor-size-small {
+	 font-size: @font_size($h1_font_size, multiple, round, 0.9)px;
+ }
+.elementor-widget-heading h1.elementor-heading-title.elementor-size-medium {
+	font-size: @font_size($h1_font_size, multiple, round, 1.1)px;
+}
+.elementor-widget-heading h1.elementor-heading-title.elementor-size-large {
+	font-size: @font_size($h1_font_size, multiple, round, 1.2)px;
+}
+.elementor-widget-heading h1.elementor-heading-title.elementor-size-xl {
+	font-size: @font_size($h1_font_size, multiple, round, 1.3)px;
+}
+.elementor-widget-heading h1.elementor-heading-title.elementor-size-xxl {
+	font-size: @font_size($h1_font_size, multiple, round, 1.4)px;
+}
+
+.elementor-widget-heading h2.elementor-heading-title.elementor-size-small {
+	font-size: @font_size($h2_font_size, multiple, round, 0.9)px;
+}
+.elementor-widget-heading h2.elementor-heading-title.elementor-size-medium {
+	font-size: @font_size($h2_font_size, multiple, round, 1.1)px;
+}
+.elementor-widget-heading h2.elementor-heading-title.elementor-size-large {
+	font-size: @font_size($h2_font_size, multiple, round, 1.2)px;
+}
+.elementor-widget-heading h2.elementor-heading-title.elementor-size-xl {
+	font-size: @font_size($h2_font_size, multiple, round, 1.3)px;
+}
+.elementor-widget-heading h2.elementor-heading-title.elementor-size-xxl {
+	font-size: @font_size($h2_font_size, multiple, round, 1.4)px;
+}
+
+.elementor-widget-heading h3.elementor-heading-title.elementor-size-small {
+	font-size: @font_size($h3_font_size, multiple, round, 0.9)px;
+}
+.elementor-widget-heading h3.elementor-heading-title.elementor-size-medium {
+	font-size: @font_size($h3_font_size, multiple, round, 1.1)px;
+}
+.elementor-widget-heading h3.elementor-heading-title.elementor-size-large {
+	font-size: @font_size($h3_font_size, multiple, round, 1.2)px;
+}
+.elementor-widget-heading h3.elementor-heading-title.elementor-size-xl {
+	font-size: @font_size($h3_font_size, multiple, round, 1.3)px;
+}
+.elementor-widget-heading h3.elementor-heading-title.elementor-size-xxl {
+	font-size: @font_size($h3_font_size, multiple, round, 1.4)px;
+}
+
+.elementor-widget-heading h4.elementor-heading-title.elementor-size-small {
+	font-size: @font_size($h4_font_size, multiple, round, 0.9)px;
+}
+.elementor-widget-heading h4.elementor-heading-title.elementor-size-medium {
+	font-size: @font_size($h4_font_size, multiple, round, 1.1)px;
+}
+.elementor-widget-heading h4.elementor-heading-title.elementor-size-large {
+	font-size: @font_size($h4_font_size, multiple, round, 1.2)px;
+}
+.elementor-widget-heading h4.elementor-heading-title.elementor-size-xl {
+	font-size: @font_size($h4_font_size, multiple, round, 1.3)px;
+}
+.elementor-widget-heading h4.elementor-heading-title.elementor-size-xxl {
+	font-size: @font_size($h4_font_size, multiple, round, 1.4)px;
+}
+
+.elementor-widget-heading h5.elementor-heading-title.elementor-size-small {
+	font-size: @font_size($h5_font_size, multiple, round, 0.9)px;
+}
+.elementor-widget-heading h5.elementor-heading-title.elementor-size-medium {
+	font-size: @font_size($h5_font_size, multiple, round, 1.1)px;
+}
+.elementor-widget-heading h5.elementor-heading-title.elementor-size-large {
+	font-size: @font_size($h5_font_size, multiple, round, 1.2)px;
+}
+.elementor-widget-heading h5.elementor-heading-title.elementor-size-xl {
+	font-size: @font_size($h5_font_size, multiple, round, 1.3)px;
+}
+.elementor-widget-heading h5.elementor-heading-title.elementor-size-xxl {
+	font-size: @font_size($h5_font_size, multiple, round, 1.4)px;
+}
+
+.elementor-widget-heading h6.elementor-heading-title.elementor-size-small {
+	font-size: @font_size($h6_font_size, multiple, round, 0.9)px;
+}
+.elementor-widget-heading h6.elementor-heading-title.elementor-size-medium {
+	font-size: @font_size($h6_font_size, multiple, round, 1.1)px;
+}
+.elementor-widget-heading h6.elementor-heading-title.elementor-size-large {
+	font-size: @font_size($h5_font_size, multiple, round, 1.2)px;
+}
+.elementor-widget-heading h6.elementor-heading-title.elementor-size-xl {
+	font-size: @font_size($h5_font_size, multiple, round, 1.3)px;
+}
+.elementor-widget-heading h6.elementor-heading-title.elementor-size-xxl {
+	font-size: @font_size($h5_font_size, multiple, round, 1.4)px;
+}
+
+.elementor-widget-heading h1.elementor-heading-title {
+	line-height: $h1_line_height;
+}
+.elementor-widget-heading h2.elementor-heading-title {
+	line-height: $h2_line_height;
+}
+.elementor-widget-heading h3.elementor-heading-title {
+	line-height: $h3_line_height;
+}
+.elementor-widget-heading h4.elementor-heading-title {
+	line-height: $h4_line_height;
+}
+.elementor-widget-heading h5.elementor-heading-title {
+	line-height: $h5_line_height;
+}
+.elementor-widget-heading h6.elementor-heading-title {
+	line-height: $h6_line_height;
+}
+
+.elementor-widget-heading div.elementor-heading-title,
+.elementor-widget-heading span.elementor-heading-title,
+.elementor-widget-heading p.elementor-heading-title {
+	line-height: $body_line_height;
+}
+.elementor-widget-heading div.elementor-heading-title.elementor-size-small,
+.elementor-widget-heading span.elementor-heading-title.elementor-size-small,
+.elementor-widget-heading p.elementor-heading-title.elementor-size-small {
+	font-size: @font_size($body_font_size, multiple, round, 0.9)px;
+}
+.elementor-widget-heading div.elementor-heading-title.elementor-size-medium,
+.elementor-widget-heading span.elementor-heading-title.elementor-size-medium,
+.elementor-widget-heading p.elementor-heading-title.elementor-size-medium {
+	font-size: @font_size($body_font_size, multiple, round, 1.1)px;
+}
+.elementor-widget-heading div.elementor-heading-title.elementor-size-large,
+.elementor-widget-heading span.elementor-heading-title.elementor-size-large,
+.elementor-widget-heading p.elementor-heading-title.elementor-size-large {
+	font-size: @font_size($body_font_size, multiple, round, 1.2)px;
+}
+.elementor-widget-heading div.elementor-heading-title.elementor-size-xl,
+.elementor-widget-heading span.elementor-heading-title.elementor-size-xl,
+.elementor-widget-heading p.elementor-heading-title.elementor-size-xl {
+	font-size: @font_size($body_font_size, multiple, round, 1.3)px;
+}
+.elementor-widget-heading div.elementor-heading-title.elementor-size-xxl,
+.elementor-widget-heading span.elementor-heading-title.elementor-size-xxl,
+.elementor-widget-heading p.elementor-heading-title.elementor-size-xxl {
+	font-size: @font_size($body_font_size, multiple, round, 1.4)px;
+}
+
+.elementor-widget-heading .elementor-heading-title>a:hover { color: $regular_link_color; }
+
+/* ## Image-Box */
+.elementor-image-box-title {
+	color: $regular_accent_color_1;
+}
+
+/* ## Divider */
+.elementor-divider-separator {
+	border-top-color: $grey_color_1;
+}
+
+/* ## Icon - Icon Box */
+.elementor-view-framed .elementor-icon,
+.elementor-view-default .elementor-icon {
+	color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+
+.elementor-view-stacked .elementor-icon {
+	background-color: $regular_accent_color_1;
+}
+
+/* ##Text Editor */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{
+	background-color: $regular_accent_color_1;
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{
+	border-color: $regular_accent_color_1;
+	color: $regular_accent_color_1;
+}
+
+/* ##Jet Review */
+.jet-review__progress-bar {
+	background-color: $regular_accent_color_1;
+}
+
+.jet-review__field-val,
+.jet-review__summary-val {
+	color: $regular_accent_color_1;
+}
+
+/* ##Jet Text Ticker */
+.jet-text-ticker__title {
+	font-style: $custom_font_style;
+	font-weight: $custom_font_weight;
+	font-family: @font_family( $custom_font_family );
+	letter-spacing: $custom_letter_spacing{em};
+	color: $light_color;
+	background-color: $dark_color;
+}
+
+.jet-text-ticker__date,
+.jet-text-ticker__post-date,
+.jet-text-ticker__post-author,
+.jet-text-ticker .jet-blog-arrow {
+	color: $grey_color_1;
+}
+
+.jet-text-ticker__item-typed:hover {
+	color: $regular_link_color;
+}
+
+.jet-text-ticker .jet-blog-arrow:hover {
+	color: $light_color;
+	border-color: $regular_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+
+/* ##Jet Smart Tiles */
+.jet-smart-tiles {
+	color: $light_color;
+}
+
+.jet-smart-tiles-wrap .jet-blog-arrow {
+	background-color: $light_color;
+}
+
+.jet-smart-tiles-wrap .jet-blog-arrow:hover {
+	color: $light_color;
+	border-color: $regular_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+
+.jet-smart-tiles__box-title {
+	font-style: $h5_font_style;
+	font-weight: $h5_font_weight;
+	font-size: $h5_font_size{px};
+	line-height: $h5_line_height;
+	font-family: @font_family( $h5_font_family );
+	letter-spacing: $h5_letter_spacing{em};
+	text-transform: $h5_text_transform;
+}
+
+.layout-2-1-2 div:nth-child(3) .jet-smart-tiles__box-title,
+.layout-1-1-2-h > div:nth-child(1) .jet-smart-tiles__box-title,
+.layout-1-1-2-v > div:nth-child(1) .jet-smart-tiles__box-title,
+.layout-1-2 > div:nth-child(1) .jet-smart-tiles__box-title,
+.layout-1-2-2 > div:nth-child(1) .jet-smart-tiles__box-title {
+	font-style: $h2_font_style;
+	font-weight: $h2_font_weight;
+	font-size: @font_size($h2_font_size, multiple, round, $h2_mobile_multiple)px;
+	line-height: $h2_line_height;
+	font-family: @font_family( $h2_font_family );
+	letter-spacing: $h2_letter_spacing{em};
+	text-transform: $h2_text_transform;
+}
+
+@media (min-width: 1200px) {
+	.layout-2-1-2 div:nth-child(3) .jet-smart-tiles__box-title,
+	.layout-1-1-2-h > div:nth-child(1) .jet-smart-tiles__box-title,
+	.layout-1-1-2-v > div:nth-child(1) .jet-smart-tiles__box-title,
+	.layout-1-2 > div:nth-child(1) .jet-smart-tiles__box-title,
+	.layout-1-2-2 > div:nth-child(1) .jet-smart-tiles__box-title {
+		font-size: $h2_font_size{px};
+	}
+}
+
+/* ##Jet Smart Posts List */
+.jet-smart-listing__filter-item > a,
+.jet-smart-listing__filter-item > i {
+	color: @darken($grey_color_1, 19);
+}
+
+.jet-smart-listing__filter-item a:hover,
+.jet-smart-listing__filter-item:hover > i,
+.jet-smart-listing__filter-item.jet-active-item a {
+	color: $regular_link_color;
+}
+
+.jet-smart-listing__meta {
+	color: @darken($grey_color_1, 19);
+}
+
+.jet-smart-listing__arrow {
+	color: $grey_color_1;
+}
+
+.jet-smart-listing__arrow:hover {
+	color: $light_color;
+	border-color: $regular_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+
+.jet-smart-listing-wrap.jet-processing + .jet-smart-listing-loading {
+	border-left-color: $regular_accent_color_1;
+	border-bottom-color: $regular_accent_color_1;
+	border-right-color: $regular_accent_color_1;
+}
+
+.featured-layout-boxed .jet-smart-listing__post-title,
+.featured-layout-boxed .jet-smart-listing__meta-icon,
+.featured-layout-boxed .jet-smart-listing__meta,
+.featured-layout-boxed .jet-smart-listing__post-excerpt,
+.featured-layout-boxed .posted-by {
+	color: $light_color;
+}
+
+/* ##Jet Terms Link Style*/
+.jet-smart-tiles__terms-link,
+.jet-smart-listing__terms-link {
+	font-style: $custom_font_style;
+	font-weight: $custom_font_weight;
+	font-family: @font_family( $custom_font_family );
+	letter-spacing: $custom_letter_spacing{em};
+
+	background-color: $regular_accent_color_1;
+	color: $light_color;
+}
+.jet-smart-tiles__terms-link:hover,
+.jet-smart-listing__terms-link:hover {
+	background-color: @darken($regular_accent_color_1, 10);
+	color: $light_color;
+}
+
+/* ##Jet Video Playlist */
+.jet-blog-playlist__heading,
+.jet-blog-playlist__items {
+	background-color: $dark_color;
+}
+
+.jet-blog-playlist__heading-title {
+	font-style: $h5_font_style;
+	font-weight: $h5_font_weight;
+	font-size: $h5_font_size{px};
+	line-height: $h5_line_height;
+	font-family: @font_family( $h5_font_family );
+	letter-spacing: $h5_letter_spacing{em};
+	text-transform: $h5_text_transform;
+}
+
+.jet-blog-playlist__item-title {
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: $h6_font_size{px};
+	line-height: $h6_line_height;
+	font-family: @font_family( $h6_font_family );
+	letter-spacing: $h6_letter_spacing{em};
+	text-transform: $h6_text_transform;
+}
+
+/* ##Jet Subscribe */
+.jet-subscribe-form .jet-subscribe-form__input {
+	border-color: $grey_color_1;
+}
+
+.jet-subscribe-form .jet-subscribe-form__input:focus {
+	border-color: $regular_accent_color_1;
+}
+
+/* ##Jet Tabs */
+.jet-tabs .jet-tabs__control-wrapper {
+	border-color: $grey_color_1;
+}
+
+.jet-tabs .jet-tabs__label-text {
+	font-style: $custom_font_style;
+	font-weight: $custom_font_weight;
+	font-family: @font_family( $custom_font_family );
+	letter-spacing: $custom_letter_spacing{em};
+}
+
+.jet-tabs__control:hover {
+	background-color: @lighten($regular_accent_color_1, 8);
+}
+
+.jet-tabs__control.active-tab {
+	background-color: $regular_accent_color_1;
+}
+
+.jet-tabs__control.active-tab .jet-tabs__label-text,
+.jet-tabs__control:hover .jet-tabs__label-text,
+.jet-tabs__control.active-tab .jet-tabs__label-icon,
+.jet-tabs__control:hover .jet-tabs__label-icon {
+	color: $light_color;
+}
+
+/* ##Jet Nav Menu */
+.jet-nav .menu-item-link-top {
+	font-style: $custom_font_style;
+	font-weight: $custom_font_weight;
+	font-family: @font_family( $custom_font_family );
+	letter-spacing: $custom_letter_spacing{em};
+}
+
+
+/*//////////////////////// other style */
+
+/*Smart Tiles*/
+.jet-smart-tiles__box-title{
+	font-style: $h2_font_style;
+	font-weight: $h2_font_weight;
+font-size: $h2_font_size{px};
+line-height: $h2_line_height;
+font-family: @font_family( $h2_font_family );
+letter-spacing: $h2_letter_spacing{em};
+text-transform: $h2_text_transform;
+}
+
+.jet-smart-tiles__box:before{
+	border-bottom-color: $regular_accent_color_1;
+}
+
+.jet-smart-tiles__terms-link,
+.jet-smart-listing__terms-link{
+	font-size: @font_size($h5_font_size, multiple, round, 1.11)px;
+	font-family: @font_family( $h5_font_family );
+	font-weight: $h5_font_weight;
+}
+
+.jet-smart-listing__meta .post__date,
+.jet-smart-listing__meta .posted-by,
+.jet-smart-listing__meta .post__comments{
+	font-style: $body_font_style;
+	font-weight: $body_font_weight;
+font-size: $body_font_size{px};
+line-height: $body_line_height;
+font-family: @font_family( $body_font_family );
+text-transform: $body_text_transform;
+}
+
+.jet-smart-listing__post-title{
+	font-style: $h4_font_style;
+	font-weight: $h4_font_weight;
+font-size: $h4_font_size{px};
+line-height: $h4_line_height;
+font-family: @font_family( $h4_font_family );
+letter-spacing: $h4_letter_spacing{em};
+text-transform: $h4_text_transform;
+}
+
+.jet-smart-listing__post-title.post-title-featured{
+	font-style: $h3_font_style;
+	font-weight: $h3_font_weight;
+font-size: $h3_font_size{px};
+line-height: $h3_line_height;
+font-family: @font_family( $h3_font_family );
+letter-spacing: $h3_letter_spacing{em};
+text-transform: $h3_text_transform;
+}
+
+.jet-smart-listing__post-excerpt{
+font-size: $body_font_size{px};
+}
+
+.jet-smart-listing__filter-item > a,
+.jet-smart-listing__filter-item > i{
+	color: $regular_text_color;
+}
+
+.jet-smart-tiles__terms-link:hover,
+.jet-smart-listing__terms-link:hover{
+	background-color: @darken($regular_accent_color_1, 10);
+}
+
+
+/*Menu*/
+.main-navigation {
+	font-style: $body_font_style;
+	font-weight: $body_font_weight;
+	font-family: @font_family( $body_font_family );
+}
+
+/*Post*/
+.posts-list__item .entry-title{
+	font-style: $h3_font_style;
+	font-weight: $h3_font_weight;
+font-size: $h3_font_size{px};
+line-height: $h3_line_height;
+font-family: @font_family( $h3_font_family );
+letter-spacing: $h3_letter_spacing{em};
+text-transform: $h3_text_transform;
+}
+
+.post__cats a{
+font-size: $h5_font_size{px};
+}
+
+.post__cats a:hover{
+	color: $light_color;
+}
+
+.posted-by a{
+	color: $dark_color;
+}
+
+.posted-by a:hover{
+	color: $regular_accent_color_1;
+}
+
+.posts-list .post__tags a{
+	font-family: @font_family( $h5_font_family );
+}
+
+.posts-list .post__tags a{
+	color: $dark_color;
+}
+
+.posts-list .invert .post__tags a{
+	color: $light_color;
+}
+
+.posts-list .post__tags a:hover{
+	color: $regular_accent_color_1;
+}
+
+.posts-list .invert .post__tags a:hover,
+.invert .post__cats a:hover{
+	color: $regular_accent_color_2;
+}
+
+.invert.posts-list__item .entry-title a,
+.invert.posts-list__item .post__cats a,
+.invert.posts-list__item .post__date a,
+.invert.posts-list__item .posted-by a{
+	color: $light_color;
+}
+
+.invert.posts-list__item .entry-title a:hover,
+.invert.posts-list__item .post__cats a:hover,
+.invert.posts-list__item .post__date a:hover,
+.invert.posts-list__item .posted-by a:hover{
+	color: $regular_accent_color_2;
+}
+
+/*Post Layouts*/
+.post-template-single-layout-4 .posted-by a,
+.post-template-single-layout-2 .posted-by a{
+	color: $light_color;
+}
+
+.posts-list .invert .post__tags a:hover,
+.invert .posted-by a,
+.invert .post__cats a:hover,
+.invert .posted-by a:hover,
+.invert .post__date a:hover{
+	color: $light_color;
+}
+
+/*Reviews*/
+.jet-review__field-label,
+.jet-review__summary-legend{
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+font-size: $h6_font_size{px};
+line-height: $h6_line_height;
+font-family: @font_family( $h6_font_family );
+letter-spacing: $h6_letter_spacing{em};
+text-transform: $h6_text_transform;
+}
+
+/*Paginations*/
+.site-content .page-links a,
+.site-content .page-links > .page-links__item,
+.nav-links .page-numbers,
+.posts-load-more-btn{
+	font-style: $h4_font_style;
+	font-weight: $h4_font_weight;
+font-size: $h4_font_size{px};
+font-family: @font_family( $h4_font_family );
+letter-spacing: $h4_letter_spacing{em};
+text-transform: $h4_text_transform;
+color: $regular_h4_color;
+}
+
+/*Text Ticker*/
+.jet-text-ticker__title{
+	font-style: $h5_font_style;
+	font-weight: $h5_font_weight;
+font-size: $h5_font_size{px};
+font-family: @font_family( $h5_font_family );
+letter-spacing: $h5_letter_spacing{em};
+text-transform: $h5_text_transform;
+}
+
+.widget_recent_entries li:before{
+	color: $regular_accent_color_1;
+}
+
+.widget-title{
+	font-style: $h3_font_style;
+	font-weight: $h3_font_weight;
+font-size: $h3_font_size{px};
+font-family: @font_family( $h3_font_family );
+letter-spacing: $h3_letter_spacing{em};
+text-transform: $h3_text_transform;
+}
+
+.tagcloud a{
+	color: $dark_color;
+}
+
+#better-recent-comments .comment-excerpt,
+#better-recent-comments .comment-date{
+	font-style: $body_font_style;
+	font-weight: $body_font_weight;
+font-size: $body_font_size{px};
+font-family: @font_family( $body_font_family );
+letter-spacing: $body_letter_spacing{em};
+text-transform: $body_text_transform;
+}
+
+.widget_recent_entries a{
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+font-size: $h6_font_size{px};
+font-family: @font_family( $h6_font_family );
+letter-spacing: $h6_letter_spacing{em};
+text-transform: $h6_text_transform;
+}
+
+.widget_recent_entries a:hover{
+	color: $regular_accent_color_1;
+}
+
+.jet-menu > li > a{
+	font-size: @font_size($h5_font_size, multiple, round, 1.11)px;
+}

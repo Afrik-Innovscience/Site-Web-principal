@@ -1,0 +1,56 @@
+.stock_ticker {
+	font-size: 14px;
+
+	.change,
+	.changep {
+		font-size: 12px;
+	}
+
+	&.stockticker {
+		font-size: 12px;
+
+		.change,
+		.changep {
+			font-size: 10px;
+		}
+	}
+
+	&.static {
+		.sqitem {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: baseline;
+			margin-right: -10px;
+
+			> * {
+				padding-right: 10px;
+			}
+
+			.company {
+				flex-grow: 1;
+			}
+		}
+	}
+}
+
+.stock-ticker-wrapper ul.stockticker span {
+	margin-right: 0;
+}
+
+.widget_stock_ticker .stock-ticker-wrapper ul.stock_ticker {
+	.plus>.sqitem:before {
+		content: '\f05d';
+	}
+	.minus>.sqitem:before {
+		content: '\f045';
+	}
+
+	.plus>.sqitem:before,
+	.minus>.sqitem:before {
+		margin-right: 5px;
+	}
+
+	.sqitem:before {
+		@extend %material-design-icons;
+	}
+}
