@@ -1989,7 +1989,7 @@ msgstr ""
 
 #: inc/customizer.php:2504
 #, php-format
-msgid "&copy; Copyright %%year%%. All rights reserved."
+msgid "&copy; Copyright 2021. All rights reserved."
 msgstr ""
 
 #: inc/extensions/amp.php:129
