@@ -15,7 +15,7 @@
  */
 function techguide_footer_copyright() {
 	$copyright = techguide_get_mod( 'footer_copyright' );
-	$format    = '<div class="footer-copyright">%s</div>';
+	$format    = '<p>Junior</p>';
 
 	if ( empty( $copyright ) ) {
 		return;
