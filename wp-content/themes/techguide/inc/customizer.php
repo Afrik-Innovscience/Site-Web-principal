@@ -2472,7 +2472,7 @@ function techguide_get_blog_layouts() {
  * @return string
  */
 function techguide_get_default_footer_copyright() {
-	return esc_html__( '&copy; Copyright %%year%%. TEST.', 'techguide' );
+	return esc_html__( '&copy; Copyright %%year%%. All rights reserved.', 'techguide' );
 }
 
 /**
