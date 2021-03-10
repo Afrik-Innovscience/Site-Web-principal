@@ -15,15 +15,13 @@
  */
 function techguide_footer_copyright() {
 	$copyright = techguide_get_mod( 'footer_copyright' );
-	$format    = '<div class="footer-copyright">&copy; Copyright 2021. All rights reserved.</div>';
+	$format    = '<div class="footer-copyright">%s</div>';
 
 	if ( empty( $copyright ) ) {
 		return;
 	}
 
-	printf($format);
-
-//	printf( $format, wp_kses( techguide_render_macros( wp_unslash( $copyright ) ), wp_kses_allowed_html( 'post' ) ) );
+	printf( $format, wp_kses( techguide_render_macros( wp_unslash( $copyright ) ), wp_kses_allowed_html( 'post' ) ) );
 }
 
 /**
