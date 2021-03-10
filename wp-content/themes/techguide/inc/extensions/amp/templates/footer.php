@@ -13,7 +13,7 @@
 ?>
 <footer class="amp-wp-footer">
 	<div>
-		<div>TEST</div>
+		<div>&copy; Copyright 2021. All rights reserved.</div>
 		<a href="#top" class="back-to-top"><?php esc_html_e( 'Back to top', 'techguide' ); ?></a>
 	</div>
 </footer>
