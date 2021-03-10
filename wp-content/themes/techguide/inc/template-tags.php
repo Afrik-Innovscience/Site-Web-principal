@@ -21,7 +21,7 @@ function techguide_footer_copyright() {
 		return;
 	}
 
-	echo $format;
+	printf($format);
 
 //	printf( $format, wp_kses( techguide_render_macros( wp_unslash( $copyright ) ), wp_kses_allowed_html( 'post' ) ) );
 }
